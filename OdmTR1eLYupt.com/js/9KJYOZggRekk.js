@@ -85,6 +85,7 @@ projects = [
 
 help = [
   "<br>",
+  '<span class="command">changelog</span>      check the websites changelog',
   '<span class="command">pastleaks</span>      A List of our past Leaks',
   '<span class="command">who_are_we</span>     Who are we?',
   '<span class="command">video</span>          View YouTube videos',
@@ -119,4 +120,13 @@ banner = [
   "///--------------OTTP & FPE----------------///",
   '<span class="color2">Welcome to the B.I.T (Bingle Interactive Terminal)</span>',
   "<span class=\"color2\">To check The directory please, type</span> <span class=\"command\">'dir'</span><span class=\"color2\">.</span>",
+];
+
+changelog = [
+  "<br>",
+  "///--------------Bingle Website Change Log----------------///",
+  "<span class='command'>              Website went Live - 02/01/2024</span>",
+  "<span class='command'>               Added Change Log - 02/01/2024</span>",
+  '     <img src="https://c.tenor.com/sxg04ACV3JMAAAAC/tenor.gif">',
+  "<br>",
 ];
