@@ -127,6 +127,7 @@ changelog = [
   "///--------------Bingle Website Change Log----------------///",
   "<span class='command'>              Website went Live - 02/01/2024</span>",
   "<span class='command'>               Added Change Log - 02/01/2024</span>",
+  "<span class='command'>         Leaked CID Car Comp Requests - 02/01/2024</span>",
   '     <img src="https://c.tenor.com/sxg04ACV3JMAAAAC/tenor.gif">',
   "<br>",
 ];
