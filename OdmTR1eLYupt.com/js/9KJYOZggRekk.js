@@ -34,10 +34,12 @@ pastleaks = [
 
 whoami = [
   "<br>",
+  '<img src="RPUKBingle.github.io\OdmTR1eLYupt.com\img">'
 ];
 
 social = [
   "<br>",
+  '<img src="Putercat.jpg">'
 ];
 
 projects = [
