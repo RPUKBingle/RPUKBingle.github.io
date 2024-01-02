@@ -8,33 +8,32 @@ var email = ' ';
 
 pastleaks = [
   "<br>",
-  "</span> <span class=\"command\">CID Handbook</span><span class=\"color2\">               https://docs.google.com/document/d/1T2CUiLRL9NNVw0vC8a78b8zeurAQYpO6iHKXBULlyp8/edit#heading=h.6brwnvbxlu3n</span>",
-  "</span> <span class=\"command\">SMS Records Example</span><span class=\"color2\">        https://docs.google.com/spreadsheets/d/1ussY6rLgBPjEOv9VNlVbB_TIqzEtwsMLx3vxIWtfVn0/edit#gid=62415168</span>",
-  "</span> <span class=\"command\">Operation Lifeless Dog</span><span class=\"color2\">     https://docs.google.com/document/d/1St55X7LTpey6c3iVKO0NJ9g8EPHJG8wIgWLpn7ZOr8E/edit?usp=sharing</span>",
-  "</span> <span class=\"command\">VSR Jerry Johnson</span><span class=\"color2\">          https://docs.google.com/document/d/1-aNLXT8X__iiEE6SJArXJXynzDDCFhciPlIylfBQ-RU/edit</span>",
-  "</span> <span class=\"command\">CID Records Request Guide</span><span class=\"color2\">  https://docs.google.com/document/d/16hEuBYos5G-7k5_mKGFbTsJniKopbBkccLe91CEAk80/edit?usp=sharing</span>",
-  "</span> <span class=\"command\">CID Forensics Introduction</span><span class=\"color2\"> https://docs.google.com/document/d/10YME3NYh19uN93DhC_9P97-NNp-3vhdXkBV4fanraTQ/edit?usp=sharing</span>",
-  "</span> <span class=\"command\">CID | Forensic Policy</span><span class=\"color2\">      https://docs.google.com/document/d/1z96t5cij3xY2dkVL7ioWRB5mwocT_Q02pJi6qOZpSHk/edit?usp=sharing</span>",
-  "</span> <span class=\"command\">LSPS hack 19/12/23</span><span class=\"color2\">         https://docs.google.com/spreadsheets/d/1LodbnvqOqLhvwCXqne7UKa14pwisuOdOXBYOUhe7JSY/edit#gid=0</span>",
-  "</span> <span class=\"command\">EV Convoy damage</span><span class=\"color2\">           https://docs.google.com/spreadsheets/d/15yzdwSq0_rh_7Y5dLfk2JMCnQXia35EQdtcH9svDYe4/edit#gid=0</span>",
+  "</span> <span class=\"command\">CID Handbook</span><span class=\"color2\">               <a href='https://docs.google.com/document/d/1T2CUiLRL9NNVw0vC8a78b8zeurAQYpO6iHKXBULlyp8/edit#heading=h.6brwnvbxlu3n'>https://docs.google.com/document/d/1T2CUiLRL9NNVw0vC8a78b8zeurAQYpO6iHKXBULlyp8/edit#heading=h.6brwnvbxlu3n</a></span>",
+  "</span> <span class=\"command\">SMS Records Example</span><span class=\"color2\">        <a href='https://docs.google.com/spreadsheets/d/1ussY6rLgBPjEOv9VNlVbB_TIqzEtwsMLx3vxIWtfVn0/edit#gid=62415168'>https://docs.google.com/spreadsheets/d/1ussY6rLgBPjEOv9VNlVbB_TIqzEtwsMLx3vxIWtfVn0/edit#gid=62415168</a></span>",
+  "</span> <span class=\"command\">Operation Lifeless Dog</span><span class=\"color2\">     <a href='https://docs.google.com/document/d/1St55X7LTpey6c3iVKO0NJ9g8EPHJG8wIgWLpn7ZOr8E/edit?usp=sharing'>https://docs.google.com/document/d/1St55X7LTpey6c3iVKO0NJ9g8EPHJG8wIgWLpn7ZOr8E/edit?usp=sharing</a></span>",
+  "</span> <span class=\"command\">VSR Jerry Johnson</span><span class=\"color2\">          <a href='https://docs.google.com/document/d/1-aNLXT8X__iiEE6SJArXJXynzDDCFhciPlIylfBQ-RU/edit'>https://docs.google.com/document/d/1-aNLXT8X__iiEE6SJArXJXynzDDCFhciPlIylfBQ-RU/edit</a></span>",
+  "</span> <span class=\"command\">CID Records Request Guide</span><span class=\"color2\">  <a href='https://docs.google.com/document/d/16hEuBYos5G-7k5_mKGFbTsJniKopbBkccLe91CEAk80/edit?usp=sharing'>https://docs.google.com/document/d/16hEuBYos5G-7k5_mKGFbTsJniKopbBkccLe91CEAk80/edit?usp=sharing</a></span>",
+  "</span> <span class=\"command\">CID Forensics Introduction</span><span class=\"color2\"> <a href='https://docs.google.com/document/d/10YME3NYh19uN93DhC_9P97-NNp-3vhdXkBV4fanraTQ/edit?usp=sharing'>https://docs.google.com/document/d/10YME3NYh19uN93DhC_9P97-NNp-3vhdXkBV4fanraTQ/edit?usp=sharing</a></span>",
+  "</span> <span class=\"command\">CID | Forensic Policy</span><span class=\"color2\">      <a href='https://docs.google.com/document/d/1z96t5cij3xY2dkVL7ioWRB5mwocT_Q02pJi6qOZpSHk/edit?usp=sharing'>https://docs.google.com/document/d/1z96t5cij3xY2dkVL7ioWRB5mwocT_Q02pJi6qOZpSHk/edit?usp=sharing</a></span>",
+  "</span> <span class=\"command\">LSPS hack 19/12/23</span><span class=\"color2\">         <a href='https://docs.google.com/spreadsheets/d/1LodbnvqOqLhvwCXqne7UKa14pwisuOdOXBYOUhe7JSY/edit#gid=0'>https://docs.google.com/spreadsheets/d/1LodbnvqOqLhvwCXqne7UKa14pwisuOdOXBYOUhe7JSY/edit#gid=0</a></span>",
+  "</span> <span class=\"command\">EV Convoy damage</span><span class=\"color2\">           <a href='https://docs.google.com/spreadsheets/d/15yzdwSq0_rh_7Y5dLfk2JMCnQXia35EQdtcH9svDYe4/edit#gid=0'>https://docs.google.com/spreadsheets/d/15yzdwSq0_rh_7Y5dLfk2JMCnQXia35EQdtcH9svDYe4/edit#gid=0</a></span>",
   "<br>",
   '</span> <span class=\"command\">(Previously un-released) CID Car Comp Requests:</span><span class=\"color2\"></span>',
   "<br>",
-  "</span> <span class=\"command\">Andrew Cullen</span><span class=\"color2\">      https://docs.google.com/document/d/1ar3nJ7rn2o8YLl4b06JlNoRC-8gqTWYVl1BEyA86aw8/edit?usp=sharing</span>",
-  "</span> <span class=\"command\">Mathew Treed</span><span class=\"color2\">       https://docs.google.com/document/d/1W5_VttJOo6q2m89g1_KyUy_j-IILAmYRphBVVAfxOpw/edit?usp=sharing</span>",
-  "</span> <span class=\"command\">Matty Ripper</span><span class=\"color2\">       https://docs.google.com/document/d/1NFRa3-8lLbkmhmcBuNYVN_mvG-hbgLwtDM38h8LxG8Y/edit?usp=sharing</span>",
-  "</span> <span class=\"command\">Buffington Egan</span><span class=\"color2\">    https://docs.google.com/document/d/1sqroS8vyBbCjDmELAM1clMwZPL5OiKyUVZb1Fwy_HqA/edit#heading=h.6brwnvbxlu3n</span>",
-  "</span> <span class=\"command\">Kevin Wright</span><span class=\"color2\">       https://docs.google.com/document/d/1duhqIQSkiRSdhYUl7ujwptVNLR38TMe4ombEJmVsGEg/edit</span>",
-  "</span> <span class=\"command\">Alec Hunter</span><span class=\"color2\">        https://docs.google.com/document/d/1YrJtCzwDsDaO3cMsB8aYqJZQ1KXnfMbo0Y4-8rUngLk/edit#heading=h.6brwnvbxlu3n</span>",
-  "</span> <span class=\"command\">Dean Williams</span><span class=\"color2\">      https://docs.google.com/document/d/1BO9z2zFadfCqtbgS2yHPjxvxR8a1vBDn-wSK9WXWJ-I/edit#heading=h.6brwnvbxlu3n</span>",
-  "</span> <span class=\"command\">Dillan Price</span><span class=\"color2\">       https://docs.google.com/document/d/1o12CAYcwxeHC3kfLWBjpCoXP6VFFEyHm1cd4ZJWVsRs/edit?usp=sharing</span>",
-  "</span> <span class=\"command\">John Hendrickson</span><span class=\"color2\">   https://docs.google.com/document/d/16hnvlF5kD99YBk2x6UJwCNjYS_sZxUuBc0UXXuRHm8Q/edit#heading=h.6brwnvbxlu3n</span>",
+  "</span> <span class=\"command\">Andrew Cullen</span><span class=\"color2\">      <a href='https://docs.google.com/document/d/1ar3nJ7rn2o8YLl4b06JlNoRC-8gqTWYVl1BEyA86aw8/edit?usp=sharing'>https://docs.google.com/document/d/1ar3nJ7rn2o8YLl4b06JlNoRC-8gqTWYVl1BEyA86aw8/edit?usp=sharing</a></span>",
+  "</span> <span class=\"command\">Mathew Treed</span><span class=\"color2\">       <a href='https://docs.google.com/document/d/1W5_VttJOo6q2m89g1_KyUy_j-IILAmYRphBVVAfxOpw/edit?usp=sharing'>https://docs.google.com/document/d/1W5_VttJOo6q2m89g1_KyUy_j-IILAmYRphBVVAfxOpw/edit?usp=sharing</a></span>",
+  "</span> <span class=\"command\">Matty Ripper</span><span class=\"color2\">       <a href='https://docs.google.com/document/d/1NFRa3-8lLbkmhmcBuNYVN_mvG-hbgLwtDM38h8LxG8Y/edit?usp=sharing'>https://docs.google.com/document/d/1NFRa3-8lLbkmhmcBuNYVN_mvG-hbgLwtDM38h8LxG8Y/edit?usp=sharing</a></span>",
+  "</span> <span class=\"command\">Buffington Egan</span><span class=\"color2\">    <a href='https://docs.google.com/document/d/1sqroS8vyBbCjDmELAM1clMwZPL5OiKyUVZb1Fwy_HqA/edit#heading=h.6brwnvbxlu3n'>https://docs.google.com/document/d/1sqroS8vyBbCjDmELAM1clMwZPL5OiKyUVZb1Fwy_HqA/edit#heading=h.6brwnvbxlu3n</a></span>",
+  "</span> <span class=\"command\">Kevin Wright</span><span class=\"color2\">       <a href='https://docs.google.com/document/d/1duhqIQSkiRSdhYUl7ujwptVNLR38TMe4ombEJmVsGEg/edit'>https://docs.google.com/document/d/1duhqIQSkiRSdhYUl7ujwptVNLR38TMe4ombEJmVsGEg/edit</a></span>",
+  "</span> <span class=\"command\">Alec Hunter</span><span class=\"color2\">        <a href='https://docs.google.com/document/d/1YrJtCzwDsDaO3cMsB8aYqJZQ1KXnfMbo0Y4-8rUngLk/edit#heading=h.6brwnvbxlu3n'>https://docs.google.com/document/d/1YrJtCzwDsDaO3cMsB8aYqJZQ1KXnfMbo0Y4-8rUngLk/edit#heading=h.6brwnvbxlu3n</a></span>",
+  "</span> <span class=\"command\">Dean Williams</span><span class=\"color2\">      <a href='https://docs.google.com/document/d/1BO9z2zFadfCqtbgS2yHPjxvxR8a1vBDn-wSK9WXWJ-I/edit#heading=h.6brwnvbxlu3n'>https://docs.google.com/document/d/1BO9z2zFadfCqtbgS2yHPjxvxR8a1vBDn-wSK9WXWJ-I/edit#heading=h.6brwnvbxlu3n</a></span>",
+  "</span> <span class=\"command\">Dillan Price</span><span class=\"color2\">       <a href='https://docs.google.com/document/d/1o12CAYcwxeHC3kfLWBjpCoXP6VFFEyHm1cd4ZJWVsRs/edit?usp=sharing'>https://docs.google.com/document/d/1o12CAYcwxeHC3kfLWBjpCoXP6VFFEyHm1cd4ZJWVsRs/edit?usp=sharing</a></span>",
+  "</span> <span class=\"command\">John Hendrickson</span><span class=\"color2\">   <a href='https://docs.google.com/document/d/16hnvlF5kD99YBk2x6UJwCNjYS_sZxUuBc0UXXuRHm8Q/edit#heading=h.6brwnvbxlu3n'>https://docs.google.com/document/d/16hnvlF5kD99YBk2x6UJwCNjYS_sZxUuBc0UXXuRHm8Q/edit#heading=h.6brwnvbxlu3n</a></span>",
   "<br>",
 ];
 
 whoami = [
   "<br>",
-  '<img src="RPUKBingle.github.io\OdmTR1eLYupt.com\img">'
 ];
 
 social = [
