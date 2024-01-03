@@ -85,7 +85,7 @@ projects = [
 
 help = [
   "<br>",
-  '<span class="command">Joinus</span>         Apply to be a bingle opritive',
+  '<span class="command">Joinus</span>         Apply to be a bingle operative',
   '<span class="command">changelog</span>      Check the websites changelog',
   '<span class="command">pastleaks</span>      A List of our past Leaks',
   '<span class="command">who_are_we</span>     Who are we?',
@@ -141,7 +141,9 @@ joinus = [
   "<span class='command'>                  What We are looking for:</span>",
   "<br>",
   "<span class=\"color4\">      Extencive knowlage of the cyber security sector</span>",
-  "<span class=\"color4\">           Good skills at pentesting is a must</span>",
+  "<span class=\"color4\">             Good skills at hacking is a must</span>",
+  "<span class=\"color4\">     if you are not the best at hacking dont worry training-</span>",
+  "<span class=\"color4\">                     can be provided.</span>",
   "<span class=\"color4\">Being able to work in a team and to lead projects/operations</span>",
   "<span class=\"color4\">      an understanding of bingles idiology and values</span>",
   "<span class=\"color4\">               Good general City knowlage</span>",
