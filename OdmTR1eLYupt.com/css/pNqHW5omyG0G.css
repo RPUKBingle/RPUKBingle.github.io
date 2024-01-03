@@ -105,6 +105,14 @@ p {
 .color2 {
   color: #B89076;
 }
+.color3 {
+  color: #ee4c4c;
+  text-shadow: 0 0 5px #ee4c4c;
+}
+.color4 {
+  color: #51ff99;
+  text-shadow: 0 0 5px #51ff99;
+}
 .command {
   color: #73ABAD;
   text-shadow: 0 0 5px #73ABAD; 
