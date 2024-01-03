@@ -158,5 +158,5 @@ joinus = [
   "<span class=\"color3\">     enforcement agencys if you lie to us WE WILL KNOW!</span>",
   "<br>",
   "<span class='command'>            if you think you have what it takes</span>",
-  "<a href='https://docs.google.com/forms/d/e/1FAIpQLSelJ2i5nq5kdp513zDByAhhOEXTIrE16t4T2cHus9naKohbjQ/viewform?fbzx=3893026999415536035'>                      Then Apply Here</a></span>",
+  "                      <a href='https://docs.google.com/forms/d/e/1FAIpQLSelJ2i5nq5kdp513zDByAhhOEXTIrE16t4T2cHus9naKohbjQ/viewform?fbzx=3893026999415536035'>Then Apply Here</a></span>",
 ];
