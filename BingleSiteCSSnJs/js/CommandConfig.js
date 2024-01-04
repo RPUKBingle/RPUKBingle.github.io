@@ -188,5 +188,6 @@ submitintel = [
   "<br>",
   "<span class='command'>       if you want to submit intelligence to Bingle anonymously please use the form below</span>",
   "<span class=\"color3\">Bingle is accepting intel of all sizes even if its just phone numbers it will help us out a tone <3</span>",
-  "                                  <a href='https://docs.google.com/forms/d/e/1FAIpQLSffx1MqYgxp8gCIOMQSvCx8sJ2A6afz8f49eX4bjV4liG8SHA/viewform'>Anon Intel Submission Form</a></span>"
+  "                                  <a href='https://docs.google.com/forms/d/e/1FAIpQLSffx1MqYgxp8gCIOMQSvCx8sJ2A6afz8f49eX4bjV4liG8SHA/viewform'>Anon Intel Submission Form</a></span>",
+  "<br>",
 ];
