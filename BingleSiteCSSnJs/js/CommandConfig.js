@@ -32,27 +32,23 @@ pastleaks = [
   "<br>",
 ];
 
-whoami = [
-  "<br>",
-];
-
 social = [
   "<br>",
   '<img src="Putercat.jpg">'
 ];
 
-projects = [
+whoarewe = [
   "<br>",                                                                                                                                                                                                    
   "               .::.        .^^.                                                                                                                                                          ",
   "              .~7JY7.     .^!77~.                                                                                                                                                         ",
   "             .!YY5JP7!?5J?~!757!^                                                                                                                                                         ",
   "             ^5YJYPGPGGGG&5!!!!!~                                                                                                                                                         ",
   "             .7GPPGGGGGPPB@@BY??7^                                                                                                                                                         ",
-  "              .?GGGGP5PGPB@@@#GG&&Y:..:~^.               .!J5PGBBBBBBGP5J!^.                                                                                                               ",
-  "          ..:JPPGY~^~5#&B@B^:^P&#5^75PGP^              ~&@@@@@@@@@@@@@@@@@#P!     :JGGP!                                                                         :!77!~^:.                ",
-  "             :7???!^7Y&&P5#@PYP&&@B^55JP@?.             7@@@@@@&&&#&&&@@@@@@@@B^  G@@@@@~                     ~5BG5^              ....            ..          !B@@@@@@@&#BGP5J?^         ",
-  "            ^5#&#G??&@&&@&@@@@@@&?7&@@@@7.             ^@@@@@&~....::^!Y&@@@@@#.  !B&&#5.                     :@@@@@#.       :!JPB##&&#BG5J~     ^P##BJ.      7@@@@@@@@@@@@@@@@@@!        ",
-  "           .Y@@@@@#~J@@@@@@@@&BY!J&@@@@P^              .&@@@@@^         7@@@@@@!    .:   .7YY7^               ~@@@@@&.    .7G&@@@@@@@@@@@@@@7   .#@@@@@!      G@@@@@GYPGB#&@@@@@&7        ",
+  "              .?GGGGP5PGPB@@@#GG&&Y:..:~^.                .!J5PGBBBBBBGP5J!^.                                                                                                               ",
+  "          ..:JPPGY~^~5#&B@B^:^P&#5^75PGP^               ~&@@@@@@@@@@@@@@@@@#P!     :JGGP!                                                                         :!77!~^:.                ",
+  "             :7???!^7Y&&P5#@PYP&&@B^55JP@?.              7@@@@@@&&&#&&&@@@@@@@@B^  G@@@@@~                     ~5BG5^              ....            ..          !B@@@@@@@&#BGP5J?^         ",
+  "            ^5#&#G??&@&&@&@@@@@@&?7&@@@@7.              ^@@@@@&~....::^!Y&@@@@@#.  !B&&#5.                     :@@@@@#.       :!JPB##&&#BG5J~     ^P##BJ.      7@@@@@@@@@@@@@@@@@@!        ",
+  "           .Y@@@@@#~J@@@@@@@@&BY!J&@@@@P^               .&@@@@@^         7@@@@@@!    .:   .7YY7^               ~@@@@@&.    .7G&@@@@@@@@@@@@@@7   .#@@@@@!      G@@@@@GYPGB#&@@@@@&7        ",
   "            :5@&GBPP~7Y#&#GPYJ??5#@@@@&P~                B@@@@@7        .P@@@@@&:  .!JJ7..B@@@@@BJ:            !@@@@@#.   ?#@@@@@@@&#BBB&@@@#~   ?@@@@@#.     .&@@@@@^    .:^~!7!:         ",
   "            .7@&5J?JP&B#&&#BB#&@@@@@#GY~.                5@@@@@Y       7#@@@@@@7  .B@@@@B^&@@@@@@@&5~          7@@@@@B  :G@@@@@@BJ~:    .~!~.   .#@@@@@J      ^@@@@@#.                     ",
   "             :Y@@@@@@@@@@@@@@@@@@@@&5?^                  J@@@@@G    :?B@@@@@@#!   :@@@@@&^#@@@@@@@@@@G!        ?@@@@@G .B@@@@@&7     ...        !@@@@@&:      !@@@@@B                      ",
@@ -60,7 +56,7 @@ projects = [
   "              :Y#&@@@@@@@@&&@@@@@@&5~                    :@@@@@@G&@@@@@@@B7       ~@@@@@# P@@@@@Y?#@@@@@@&5~   5@@@@@J B@@@@@Y   #@@@@@@@@@@#!  B@@@@@7       7@@@@@@@@@@@@B               ",
   "                 7GPGB&@@&PYY5YJ#@@@@&#GP5Y?!:           .#@@@@@@@@@@@@@@&BP?^    !@@@@@B J@@@@@P .7G@@@@@@@BJ:G@@@@@7 #@@@@@?   !G&&&#&@@@@@&:.&@@@@@^       !@@@@@@@@@&&B7               ",
   "                .?GGPPG@&?5#PPGY?@@@@@@@@@@@@#?.          G@@@@@&##&&@@@@@@@@@G~  7@@@@@G ~@@@@@#.   ~5&@@@@@@&@@@@@@! 5@@@@@B     .:..:#@@@@@!:@@@@@&.       ^@@@@@&~:::.                 ",
-  "                ^?PGPP&57@#55GB?@@@@@@@@@@@@@#^          Y@@@@@P ..:^!?P&@@@@@@! J@@@@@G .&@@@@@^     .7G@@@@@@@@@@@^ :&@@@@@P.       7@@@@@@^:@@@@@#        .#@@@@@~    .:^:             ",
+  "                ^?PGPP&57@#55GB?@@@@@@@@@@@@@#^           Y@@@@@P ..:^!?P&@@@@@@! J@@@@@G .&@@@@@^     .7G@@@@@@@@@@@^ :&@@@@@P.       7@@@@@@^:@@@@@#        .#@@@@@~    .:^:             ",
   "                  ^PPPB@?Y@@@@@JP@@@@@@@@@@@@@Y.          7@@@@@B        !@@@@@@5 Y@@@@@P  P@@@@@J        :?B@@@@@@@J   ~&@@@@@&Y~:::!5@@@@@@J :&@@@@@!:^^:.   Y@@@@@#5PGB#&@@B!           ",
   "                  ^PB#&&?Y@@@@#!&@@@@@@@@@@@@B?7!~:       ~@@@@@&^.::^~7Y#@@@@@@! !@@@@@7  7@@@@@B           ^7Y55?^     :P@@@@@@@@&@@@@@@@&?   5@@@@@@@@@@&5. .G@@@@@@@@@@@@@@P           ",
   "                   :YB&&&GP@@@@Y?&@&#GGGG&@@@@@@@@@&G:     :&@@@@@&&&&@@@@@@@@@#7   :7J7:   .P&@@#7                         ~P&@@@@@@@@@@@#Y:    .5@@@@@@@@@@@:   7G&@@@@@&&BGP?.           ",
@@ -85,22 +81,23 @@ projects = [
 
 help = [
   "<br>",
-  '<span class="command">Joinus</span>         Apply to be a bingle operative',
-  '<span class="command">changelog</span>      Check the websites changelog',
-  '<span class="command">pastleaks</span>      A List of our past Leaks',
-  '<span class="command">who_are_we</span>     Who are we?',
-  '<span class="command">video</span>          View YouTube videos',
-  '<span class="command">members_portal</span> Bingle Members Portal Login Page',
-  '<span class="command">history</span>        View command history',
-  '<span class="command">clear</span>          Clear terminal',
-  '<span class="command">banner</span>         Display the header',
+  '<span class="command">Joinus</span>            Apply to be a bingle operative',
+  '<span class="command">changelog</span>         Check the websites changelog',
+  '<span class="command">pastleaks</span>         A List of our past Leaks',
+  '<span class="command">pastops</span>           A List of our past Public Operations',
+  '<span class="command">who are we</span>        Who are we?',
+  '<span class="command">video</span>             View YouTube videos',
+  '<span class="command">members portal</span>    Bingle Members Portal Login Page',
+  '<span class="command">history</span>           View command history',
+  '<span class="command">clear</span>             Clear terminal',
+  '<span class="command">banner</span>            Display the header',
   "<br>",
 ];
 
-Dir = [
-  "<br>",
-  "</span> <span class=\"command\">VSR | Jerry Johnson</span><span class=\"color2\">",
-];
+//Dir = [
+//  "<br>",
+//  "</span> <span class=\"command\">VSR | Jerry Johnson</span><span class=\"color2\">",
+//];
 
 members_portal = [
   "<br>",
@@ -130,6 +127,8 @@ changelog = [
   "<span class='command'>               Added Change Log - 02/01/2024</span>",
   "<span class='command'>         Leaked CID Car Comp Requests - 02/01/2024</span>",
   "<span class='command'>             Added joinus command - 03/01/2024</span>",
+  "<span class='command'>            Added Pastops command - 04/01/2024</span>",
+  "<span class='command'>           Fixed command formatting- 04/01/2024</span>",
   '     <img src="https://c.tenor.com/sxg04ACV3JMAAAAC/tenor.gif">',
   "<br>",
 ];
@@ -161,4 +160,24 @@ joinus = [
   "<br>",
   "<span class='command'>            if you think you have what it takes</span>",
   "                      <a href='https://docs.google.com/forms/d/e/1FAIpQLSelJ2i5nq5kdp513zDByAhhOEXTIrE16t4T2cHus9naKohbjQ/viewform?fbzx=3893026999415536035'>Then Apply Here</a></span>",
+];
+
+pastops =[
+  "<br>",
+  "<span class='command'>                                   <a href='https://www.youtube.com/watch?v=xVGAT3k-czw'>Operation Blackout</a></span></span>",
+  "<span class='command'> Operation blackout also refered to interaly as OPB was a joint effort between bingle</span>",
+  "<span class='command'>and two other groups who formed a coalition force to attack key infrastructure within LS</span>",
+  "<span class='command'> OPB was MAJOR succsess with only one coaliton force opritive being captured by the LSPS</span>",
+  "<span class='command'>                   Out of a roughly 37 Coalition force opritives</span>",
+  "<br>",
+  '                           <img src="../../BingleSiteCSSnJs/img/Operationblackout.png">',
+  "<br>",
+  "<span class='command'>                                  <a href='https://www.youtube.com/watch?v=54eJ1nFr7hI'>Operation Oversight</a></span>",
+  "<span class='command'>   this operation was one of our smaller ops and was a warm up operations for blackout</span>",
+  "<span class='command'>we mostly tested the responce times and reactions of the LSPS to seeing all speed cameras</span>",
+  "<span class='command'>                             going all offline at the same time</span>",
+  "<span class='command'>                   we used data from this operation to help plan out OPB</span>",
+  "<br>",
+  '                               <img src="../../BingleSiteCSSnJs/img/operationoversight.png">',
+  "<br>",
 ];
