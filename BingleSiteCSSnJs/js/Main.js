@@ -31,6 +31,7 @@ pw=!1;let pwd=!1;var commands=[];function enterKey(e){if(181==e.keyCode&&documen
     ;case"banner":loopLines(banner,"",80);break
     ;case"joinus":loopLines(joinus,"",80);break
     ;case"pastops":loopLines(pastops,"",80);break
+    ;case"submitintel":loopLines(submitintel,"",80);break
     // -------------------un-used commands might use later on-----------------------------
     //;case"twitter":addLine("Opening Twitter...","color2",0),newTab(twitter);break
     //;case"linkedin":addLine("Opening LinkedIn...","color2",0),newTab(linkedin);break
