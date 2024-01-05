@@ -9,6 +9,7 @@ body {
   font-family: cursor, monospace;
   overflow-x: hidden;
 }
+
 ::selection {
   color: #211830;
   background-color: #caf9ff;
@@ -20,6 +21,9 @@ body {
 textarea {
   left: -1000px;
   position: absolute;
+  background: transparent;
+  border: none;
+  outline-width: 0;
 }
 b {
   font-weight: bold;
@@ -102,6 +106,9 @@ p {
 .index {
   color: #DCDCCC;
 }
+a:link {
+  color: #686854;
+}
 .color2 {
   color: #B89076;
 }
@@ -136,4 +143,7 @@ a:hover {
 }
 a:focus {
   outline: 0;
+}
+::selection{
+  background: rgba(195, 239, 143, 0.5);
 }
