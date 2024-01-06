@@ -52,8 +52,8 @@ body {
 }
 .container * {
   filter: blur(1px);
-  -webkit-animation: 10s distort 11s infinite alternate, blur 60ms infinite, flick 100ms infinite, jump 100ms infinite;
-          animation: 10s distort 11s infinite alternate, blur 60ms infinite, flick 100ms infinite, jump 100ms infinite;
+  -webkit-animation: 20s distort 21s infinite alternate, blur 60ms infinite, flick 50ms infinite, jump 50ms infinite;
+          animation: 20s distort 21s infinite alternate, blur 60ms infinite, flick 50ms infinite, jump 50ms infinite;
 }
 
 @-webkit-keyframes crt {
