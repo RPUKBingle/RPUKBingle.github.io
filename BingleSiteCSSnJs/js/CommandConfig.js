@@ -37,6 +37,16 @@ pastleaks = [
   "<span class=\"color3\">Police can request the owner of any tweedle account</span>",
   "<span class=\"color3\">A leak from Bingle resulted in almost 200 million pounds worth of guns and offwep getting back on the streets</span>",
   "<br>",
+  "<span class=\"command\"><h1>IIT handbook 2024 Leak:</h1></span>",
+  "<h3>   Dont challange a hacker to get a documment you think is imposible to get Sgt Watney</h3>",
+  '<img src="../../BingleSiteCSSnJs/img/Postcard.png">',
+  "          arround mid December a Bingle operative was challenged to get the IIT Handbook by none",
+  "                                     other than Sgt Adam Watney",
+  "         Mr Watney was so confident that his precious little documents where impossible to get he",
+  "                         even told the operative what names it would be under lol :3",
+  "<h3>        we tried to contact Sgt Watney for a comment but he never responded :(</h3>",
+  '                              <img src="https://i.imgur.com/xZYVp29.png">',
+  "                       <a href='https://docs.google.com/document/d/1Xf4DFWniAEfDIovwqGILF2zHCDTUt-pFsBg3dKKY-nk/edit?usp=sharing'>without further ado here is the 2023-2024 IIT handbook</a></span>"
 ];
 
 social = [
@@ -146,6 +156,7 @@ changelog = [
   "<span class='command'>      Added CRT look and glitch effect - 05/01/2024</span>",
   "<span class='command'>             Added loading screen - 06/01/2024</span>",
   "<span class='command'>            Added Neofetch command - 06/01/2024</span>",
+  "<span class='command'>              Leaked IIT handbook - 06/01/2024</span>",
   '     <img src="https://c.tenor.com/sxg04ACV3JMAAAAC/tenor.gif">',
   "<br>",
 ];
@@ -230,7 +241,7 @@ informantinfo = [
   "<br>",
   "<span class=\"color3\">                     Please Note: WE ARE ONLY LOOKING FOR THOSE FROM GOVERMENT AGENCYS</span>",
   "<br>",
-  "                                    Sign up form to be added soon <3</a></span>",
+  "                                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSdGH7xL6XHo-mNc0v5opCXeFnl6EwbafsJ1IZDvWIwuLRyxnQ/viewform?fbzx=-1411938588235038076'>Sign up here</a></span>",
   "<br>",
 ];
 
