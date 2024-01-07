@@ -690,7 +690,7 @@ body {
   height: 100vh;
   width: 100%;
 }
-#Handbook-pop-up {
+#Internal-Network-pop-up {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -705,11 +705,11 @@ body {
   overflow-y: hidden;
   box-shadow: 0 0 25px #070707;
 }
-#Handbook-pop-up:target {
+#Internal-Network-pop-up:target {
   visibility: visible;
 }
 
-#Handbook-pop-up iframe {
+#Internal-Network-pop-up iframe {
   height: 100vh;
   width: 100%;
 }
