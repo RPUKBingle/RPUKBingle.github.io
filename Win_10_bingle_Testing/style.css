@@ -690,6 +690,29 @@ body {
   height: 100vh;
   width: 100%;
 }
+#Handbook-pop-up {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 804px;
+  width: 1295px;
+  background: rgb(39, 39, 39);
+  visibility: hidden;
+  border: 2px solid #272727;
+  z-index: 1;
+  resize: both;
+  overflow-y: hidden;
+  box-shadow: 0 0 25px #070707;
+}
+#Handbook-pop-up:target {
+  visibility: visible;
+}
+
+#Handbook-pop-up iframe {
+  height: 100vh;
+  width: 100%;
+}
 
 #plans-pop-up {
   position: absolute;
