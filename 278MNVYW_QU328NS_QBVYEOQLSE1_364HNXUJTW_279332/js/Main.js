@@ -18,25 +18,10 @@ pw=!1;let pwd=!1;var commands=[];function enterKey(e){if(181==e.keyCode&&documen
     40==e.keyCode&&git!=commands.length&&(void 0===commands[git+=1]?textarea.value="":textarea.value=commands[git],
     command.innerHTML=textarea.value)}function commander(cmd){switch(cmd.toLowerCase()){case"dir":loopLines(help,"color2 margin",80);break
     /// main commands list (make sure to make a ref to the command in the commands list config)
-    ;case"changelog":loopLines(changelog,"color2 margin",80);break
-    ;case"video":case"youtube":addLine("Opening YouTube...","color2",80),newTab(youtube);break
-    ;case"cid database":addLine("Oh no, you're not a member...","color2",80),setTimeout((function(){window.open("https://www.youtube.com/watch?v=4qTLA20FRxk")}),1e3);break
-    ;case"social":loopLines(social,"color2 margin",80);break
-    ;case"members portal":liner.classList.add("password"),pw=!0;break
-    ;case"who are we":loopLines(whoarewe,"color2 margin",80);break
-    ;case"password":addLine("<span class=\"inherit\"> Lol! You're joking, right? You're gonna have to try harder than that!😂</span>","error",100);break
+    ;case"login":liner.classList.add("password"),pw=!0;break
     ;case"history":addLine("<br>","",0),loopLines(commands,"color2",80);break
     ;case"clear":setTimeout((function(){terminal.innerHTML='<a id="before"></a>',before=document.getElementById("before")}),1);break
     ;case"banner":loopLines(banner,"",80);break
-    ;case"joinus":loopLines(joinus,"",80);break
-    ;case"pastops":loopLines(pastops,"",80);break
-    ;case"submitintel":loopLines(submitintel,"",80);break
-    ;case"informantinfo":loopLines(informantinfo,"",80);break
-    ;case"neofetch":loopLines(neofetch,"",80);break
-    // -----------------------Leak Commands-----------------------------
-    ;case"bingleleaks":loopLines(Public_Bingle_Leaks_index,"",80);break
-    ;case"2024 iit handbook":loopLines(IIT_leak,"",80);break
-    ;case"pastleaks":loopLines(pastleaks,"color2 margin",80);break
     // -------------------un-used commands might use later on-----------------------------
     //;case"twitter":addLine("Opening Twitter...","color2",0),newTab(twitter);break
     //;case"linkedin":addLine("Opening LinkedIn...","color2",0),newTab(linkedin);break

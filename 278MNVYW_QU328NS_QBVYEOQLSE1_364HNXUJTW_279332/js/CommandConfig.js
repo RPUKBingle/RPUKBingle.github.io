@@ -5,69 +5,15 @@ var instagram = " ";
 var github = " ";
 var email = ' ';
 
-social = [
-  "<br>",
-  '<img src="Putercat.jpg">'
-];
-
-whoarewe = [
-  "<br>",                                                                                                                                                                                                    
-  "               .::.        .^^.                                                                                                                                                          ",
-  "              .~7JY7.     .^!77~.                                                                                                                                                        ",
-  "             .!YY5JP7!?5J?~!757!^                                                                                                                                                        ",
-  "             ^5YJYPGPGGGG&5!!!!!~                                                                                                                                                        ",
-  "             .7GPPGGGGGPPB@@BY??7^                                                                                                                                                       ",
-  "              .?GGGGP5PGPB@@@#GG&&Y:..:~^.                .!J5PGBBBBBBGP5J!^.                                                                                                            ",
-  "          ..:JPPGY~^~5#&B@B^:^P&#5^75PGP^               ~&@@@@@@@@@@@@@@@@@#P!     :JGGP!                                                                         :!77!~^:.              ",
-  "             :7???!^7Y&&P5#@PYP&&@B^55JP@?.             7@@@@@@&&&#&&&@@@@@@@@B^   G@@@@@~                     ~5BG5^              ....            ..          !B@@@@@@@&#BGP5J?^        ",
-  "            ^5#&#G??&@&&@&@@@@@@&?7&@@@@7.              ^@@@@@&~....::^!Y&@@@@@#.  !B&&#5.                     :@@@@@#.       :!JPB##&&#BG5J~     ^P##BJ.      7@@@@@@@@@@@@@@@@@@!      ",
-  "           .Y@@@@@#~J@@@@@@@@&BY!J&@@@@P^               .&@@@@@^         7@@@@@@!    .:   .7YY7^               ~@@@@@&.    .7G&@@@@@@@@@@@@@@7   .#@@@@@!      G@@@@@GYPGB#&@@@@@&7      ",
-  "            :5@&GBPP~7Y#&#GPYJ??5#@@@@&P~                B@@@@@7        .P@@@@@&:  .!JJ7..B@@@@@BJ:            !@@@@@#.   ?#@@@@@@@&#BBB&@@@#~   ?@@@@@#.     .&@@@@@^    .:^~!7!:       ",
-  "            .7@&5J?JP&B#&&#BB#&@@@@@#GY~.                5@@@@@Y       7#@@@@@@7  .B@@@@B^&@@@@@@@&5~          7@@@@@B  :G@@@@@@BJ~:    .~!~.   .#@@@@@J      ^@@@@@#.                   ",
-  "             :Y@@@@@@@@@@@@@@@@@@@@&5?^                  J@@@@@G    :?B@@@@@@#!   :@@@@@&^#@@@@@@@@@@G!        ?@@@@@G .B@@@@@&7     ...        !@@@@@&:      !@@@@@B                    ",
-  "              .?#@@@@@@@@@@@@@@@@@@&?:                   !@@@@@#..!P&@@@@@@#?.    ^@@@@@#.B@@@@@@@@@@@@B?:     Y@@@@@5 Y@@@@@&^  ^YG#&&&#B57.   5@@@@@P       7@@@@@&GGBBB5:             ",
-  "              :Y#&@@@@@@@@&&@@@@@@&5~                    :@@@@@@G&@@@@@@@B7       ~@@@@@# P@@@@@Y?#@@@@@@&5~   5@@@@@J B@@@@@Y   #@@@@@@@@@@#!  B@@@@@7       7@@@@@@@@@@@@B             ",
-  "                 7GPGB&@@&PYY5YJ#@@@@&#GP5Y?!:           .#@@@@@@@@@@@@@@&BP?^    !@@@@@B J@@@@@P .7G@@@@@@@BJ:G@@@@@7 #@@@@@?   !G&&&#&@@@@@&:.&@@@@@^       !@@@@@@@@@&&B7             ",
-  "                .?GGPPG@&?5#PPGY?@@@@@@@@@@@@#?.          G@@@@@&##&&@@@@@@@@@G~  7@@@@@G ~@@@@@#.   ~5&@@@@@@&@@@@@@! 5@@@@@B     .:..:#@@@@@!:@@@@@&.       ^@@@@@&~:::.               ",
-  "                ^?PGPP&57@#55GB?@@@@@@@@@@@@@#^           Y@@@@@P ..:^!?P&@@@@@@! J@@@@@G .&@@@@@^     .7G@@@@@@@@@@@^ :&@@@@@P.       7@@@@@@^:@@@@@#        .#@@@@@~    .:^:           ",
-  "                  ^PPPB@?Y@@@@@JP@@@@@@@@@@@@@Y.          7@@@@@B        !@@@@@@5 Y@@@@@P  P@@@@@J        :?B@@@@@@@J   ~&@@@@@&Y~:::!5@@@@@@J :&@@@@@!:^^:.   Y@@@@@#5PGB#&@@B!         ",
-  "                  ^PB#&&?Y@@@@#!&@@@@@@@@@@@@B?7!~:       ~@@@@@&^.::^~7Y#@@@@@@! !@@@@@7  7@@@@@B           ^7Y55?^     :P@@@@@@@@&@@@@@@@&?   5@@@@@@@@@@&5. .G@@@@@@@@@@@@@@P         ",
-  "                   :YB&&&GP@@@@Y?&@&#GGGG&@@@@@@@@@&G:     :&@@@@@&&&&@@@@@@@@@#7   :7J7:   .P&@@#7                         ~P&@@@@@@@@@@@#Y:    .5@@@@@@@@@@@:   7G&@@@@@&&BGP?.        ",
-  "                   ^!?B@@@@@@G?B@BJ77!~JG&&##BBB##GJ:      B@@@@@@@@@@@@@@@&P7.              :~^.                            .!J5GBBBG5?~.        ^?5PGGGGPY^      .^~~~^:.              ",
-  "                     ^~?@@@@@@@@&5!!!!~.:~~^::......        ~G&&B5PGGGPPYJ7^.                                                                                                            ",
-  "                     .:!JPB#&&&P~!77?5?^.                    .:                                                                                                                          ",
-  "                           .:^::.^JB@#GP5YJJJJ5PPY7^.                                                                                                                                    ",
-  "                                 :!YBBBBBBG5Y5P#@@&P~.                                                                                                                                   ",
-  "                                     :~7?JY!~^^^^5@@@G^                                                                                                                                  ",
-  "                                                 .YPP!.                                                                                                                                  ",
-  "                                                                                                                                                                                         ",
-  "-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
-  "   Bingle is not your typical organization. They're not a political party, a corporation, or an NGO. They're a rebellion, a voice of the people who are tired of being silenced, ignored,",
-  "         and oppressed. Bingle is made up of ordinary citizens, people like you and me, who have had enough of the government's lies, corruption, and abuse of power. Bingle believes",
-  "     in the power of community, in the strength of unity, and in the courage of those who stand up against injustice. They're not afraid to speak truth to power, to take risks, and to",
-  "                        fight for what they believe in. Bingle is a movement, a force for change, and a symbol of hope for all those who seek a better future.",
-  "    Bingle's motives revolve around challenging the oppressive actions of the government and fighting for a better society. The organization believes that the government has",
-  "       overstepped its bounds and is no longer serving the best interests of the people. Bingle is driven by the belief that change is necessary and that the status quo is",
-  "   unacceptable. They aim to inspire others to take action and join them in the fight for a brighter future. Bingle sees itself as a beacon of hope, a voice for the voiceless, and a",
-  "                                                         powerful force for change in a world that desperately needs it.",
-  "<br>",
-];
-
 help = [
   "<br>",
-  '<span class="command">Joinus</span>            Apply to be a bingle operative',
-  '<span class="command">changelog</span>         Check the websites changelog',
-  '<span class="command">bingleleaks</span>       A List of our Leaks',
-  '<span class="command">informantinfo</span>     Infomation about the bingle informant Programe',
-  '<span class="command">submitintel</span>       A link to our anon intel submission form',
-  '<span class="command">pastops</span>           A List of our past Public Operations',
-  '<span class="command">who are we</span>        Who are we?',
-  '<span class="command">video</span>             View YouTube videos',
-  '<span class="command">members portal</span>    Bingle Members Portal Login Page',
-  '<span class="command">history</span>           View command history',
-  '<span class="command">clear</span>             Clear terminal',
-  '<span class="command">neofetch</span>          Check system specs',
-  '<span class="command">banner</span>            Display the header',
+  '<span class="command">Login</span>            Login to the bingle internal Network',
+  "<br>",
+];
+
+members_portal = [
+  "<br>",
+  '<span class="command">cid database</span>      A backdoor into the CID database',
   "<br>",
 ];
 
@@ -75,12 +21,6 @@ help = [
 //  "<br>",
 //  "</span> <span class=\"command\">VSR | Jerry Johnson</span><span class=\"color2\">",
 //];
-
-members_portal = [
-  "<br>",
-  '<span class="command">cid database</span>      A backdoor into the CID database',
-  "<br>",
-];
 
 banner = [
   "<br>",
@@ -100,109 +40,6 @@ banner = [
   "///--------------!!!MCN & NFPE!!!----------------///",
   '<span class="color2">Welcome to the B.I.T (Bingle Interactive Terminal)</span>',
   "<span class=\"color2\">To check The directory please, type</span> <span class=\"command\">'dir'</span><span class=\"color2\">.</span>",
-];
-
-changelog = [
-  "<br>",
-  "///--------------Bingle Website Change Log----------------///",
-  "<span class='command'>              Website went Live - 02/01/2024</span>",
-  "<span class='command'>               Added Change Log - 02/01/2024</span>",
-  "<span class='command'>         Leaked CID Car Comp Requests - 02/01/2024</span>",
-  "<span class='command'>             Added joinus command - 03/01/2024</span>",
-  "<span class='command'>            Added Pastops command - 04/01/2024</span>",
-  "<span class='command'>          Fixed command formatting - 04/01/2024</span>",
-  "<span class='command'>         Added submit intel command - 04/01/2024</span>",
-  "<span class='command'>           Added Informant command - 05/01/2024</span>",
-  "<span class='command'>      Added CRT look and glitch effect - 05/01/2024</span>",
-  "<span class='command'>             Added loading screen - 06/01/2024</span>",
-  "<span class='command'>            Added Neofetch command - 06/01/2024</span>",
-  "<span class='command'>              Leaked IIT handbook - 06/01/2024</span>",
-  '     <img src="https://c.tenor.com/sxg04ACV3JMAAAAC/tenor.gif">',
-  "<br>",
-];
-
-joinus = [
-  "<br>",
-  "///---------------Aplication Status: OPEN-----------------///",
-  "///--do you think you have what it takes to help bingle?--///",
-  "<span class='command'>                  What We are looking for:</span>",
-  "<br>",
-  "<span class=\"color4\">      Extencive knowlage of the cyber security sector</span>",
-  "<span class=\"color4\">             Good skills at hacking is a must</span>",
-  "<span class=\"color4\">     if you are not the best at hacking dont worry training-</span>",
-  "<span class=\"color4\">                     can be provided.</span>",
-  "<span class=\"color4\">Being able to work in a team and to lead projects/operations</span>",
-  "<span class=\"color4\">      an understanding of bingles idiology and values</span>",
-  "<span class=\"color4\">               Good general City knowlage</span>",
-  "<span class=\"color4\">             a keen eye for finding out info</span>",
-  "<span class=\"color4\">  Knowlage on difrent types of encryption and how to crack them</span>",
-  "<span class=\"color4\">you must have something to bring to the table upfront when joining</span>",
-  "<br>",
-  "<span class=\"color3\"> if your aplication is appcepeted you will need to under go</span>",
-  "<span class=\"color3\">  an internal test this combined with your aplication will</span>",
-  "<span class=\"color3\">    help Bingle determine if you are a good candidate to</span>",
-  "<span class=\"color3\">           become a Bingle operative on the field</span>",
-  "<br>",
-  "<span class=\"color3\">  you will also need to disclose any involvement with law</span>",
-  "<span class=\"color3\">     enforcement agencys if you lie to us WE WILL KNOW!</span>",
-  "<br>",
-  "<span class='command'>            if you think you have what it takes</span>",
-  "                      <a href='https://docs.google.com/forms/d/e/1FAIpQLSelJ2i5nq5kdp513zDByAhhOEXTIrE16t4T2cHus9naKohbjQ/viewform?fbzx=3893026999415536035'>Then Apply Here</a></span>",
-  "<br>",
-];
-
-pastops =[
-  "<br>",
-  "<span class='command'>                                   <a href='https://www.youtube.com/watch?v=xVGAT3k-czw'>Operation Blackout</a></span></span>",
-  "<span class='command'> Operation blackout also referred to internally as OPB was a joint effort between Bingle</span>",
-  "<span class='command'>and two other groups who formed a coalition force to attack key infrastructure within LS</span>",
-  "<span class='command'> OPB was MAJOR success with only one coalition force operative being captured by the LSPS</span>",
-  "<span class='command'>                   Out of a roughly 37 Coalition force operatives</span>",
-  "<br>",
-  '                           <img src="../../BingleSiteCSSnJs/img/Operationblackout.png">',
-  "<br>",
-  "<span class='command'>                                  <a href='https://www.youtube.com/watch?v=54eJ1nFr7hI'>Operation Oversight</a></span>",
-  "<span class='command'>   this operation was one of our smaller ops and was a warm up operation for blackout</span>",
-  "<span class='command'>we mostly tested the response times and reactions of the LSPS to seeing all speed cameras</span>",
-  "<span class='command'>                             going all offline at the same time</span>",
-  "<span class='command'>                   we used data from this operation to help plan out OPB</span>",
-  "<br>",
-  '                               <img src="../../BingleSiteCSSnJs/img/operationoversight.png">',
-  "<br>",
-];
-
-submitintel = [
-  "<br>",
-  "<span class='command'>       if you want to submit intelligence to Bingle anonymously please use the form below</span>",
-  "<span class=\"color2\">Bingle is accepting intel of all sizes even if its just phone numbers it will help us out a tone <3</span>",
-  "                                  <a href='https://docs.google.com/forms/d/e/1FAIpQLSffx1MqYgxp8gCIOMQSvCx8sJ2A6afz8f49eX4bjV4liG8SHA/viewform'>Anon Intel Submission Form</a></span>",
-  "<br>",
-];
-
-informantinfo = [
-  "<br>",
-  "<span class='command'>                                       Bingle Informant Program</span>",
-  "<span class=\"color4\">The B.I.P also known as the Bingle Informant program is a robust program that aims to allow those who</span>",
-  "<span class=\"color4\">      are in governmental positions to anonymously handover info to Bingle for the grater good</span>",
-  "<br>",
-  "<span class=\"color4\">those who are in the B.I.P will be looked after well and we will make sure that your identity is protected with</span>",
-  "<span class=\"color4\">                                only Bingle command knowing who you are</span>",
-  "<br>",
-  "<span class=\"color4\">being under the B.I.P is also an alternative pathway to becoming a Bingle operative and under rare circumstances</span>",
-  "<span class=\"color4\">                     you can become a full Bingle member while still in the program</span>",
-  "<br>",
-  "<span class=\"color4\">while working for Bingle under this programme you will be treated well and paid well, Payment is based off what</span>",
-  "<span class=\"color4\">type of data you handover to Bingle, payment can be given in multiple ways but will never be over bank transfer </span>",
-  "<br>",
-  "<span class=\"color4\">if your cover has been blown while on the program we will make sure you are given all the necessary tools and</span>",
-  "<span class=\"color4\">                        guidance needed to stay safe and to avoid being captured</span>",
-  "<span class=\"color4\">    we will also assess what data you have handed over and look at possible fast track pathways to becoming</span>",
-  "<span class=\"color4\">                                   a Bingle operative after being found</span>",
-  "<br>",
-  "<span class=\"color3\">                     Please Note: WE ARE ONLY LOOKING FOR THOSE FROM GOVERMENT AGENCYS</span>",
-  "<br>",
-  "                                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSdGH7xL6XHo-mNc0v5opCXeFnl6EwbafsJ1IZDvWIwuLRyxnQ/viewform?fbzx=-1411938588235038076'>Sign up here</a></span>",
-  "<br>",
 ];
 
 Loading = [
@@ -259,88 +96,5 @@ Loading = [
   "          Starting Boot Config...",
   "[  <span class=\"color4\">OK</span>  ]  Started Boot Config.",
 ];
-
-neofetch = [
-  //  neofetch command 
-  "<br>",
-  "<span class=\"color4\">              .:~:      :^:                     </span>bingle@Bongle",
-  "<span class=\"color4\">              :?YYJ::~^:~7J!:                   </span>-------------",
-  "<span class=\"color4\">            :JYYYP5PGGG7!7!~                    </span>OS: Kali GNU/Linux",
-  "<span class=\"color4\">            ~PPPGGGPP#@#5JJ~                    </span>Kernel: 5.15.133.1",
-  "<span class=\"color4\">            !GGGY?YG#@@P?5@G~:!J7:              </span>Uptime: N/A",
-  "<span class=\"color4\">           .!JJJ^~J&BG&Y!Y&&5!PYB5.             </span>Packages: 411 (dpkg)",
-  "<span class=\"color4\">            .?B#BJJ@@&&@@@@@#75@&@5.            </span>Shell: bash 5.2.21",
-  "<span class=\"color4\">            ~&@@@#~5@@@&&#GY?G@@@#~             </span>Terminal: Relay(9)",
-  "<span class=\"color4\">            ~&&YJJJ5G&BG55PB@@@#G!              </span>CPU: AMD Ryzen 9 5900X (24) @ 3.700GHz",
-  "<span class=\"color4\">            .?@@&&@@@@@@@@@@@@BJ~               </span>GPU: GeForce RTX 3060",
-  "<span class=\"color4\">              !B@@@@@@@@@@@@@@G~                </span>Memory: 393MiB / 15953MiB",
-  "<span class=\"color4\">              .PB#&@@@#GGG&@@@#J~^^.            </span>",
-  "<span class=\"color4\">              :5GPG&@YP5PYJ&@@@@@@&#G7.         </span><span class=\"neofetchcolour1\">███</span><span class=\"neofetchcolour2\">███</span><span class=\"neofetchcolour3\">███</span><span class=\"neofetchcolour4\">███</span><span class=\"neofetchcolour5\">███</span><span class=\"neofetchcolour6\">███</span><span class=\"neofetchcolour7\">███</span>",
-  "<span class=\"color4\">                !5GP#PY@PP#J&@@@@@@@@@&^        </span><span class=\"neofetch2colour1\">███</span><span class=\"neofetch2colour2\">███</span><span class=\"neofetch2colour3\">███</span><span class=\"neofetch2colour4\">███</span><span class=\"neofetch2colour5\">███</span><span class=\"neofetch2colour6\">███</span><span class=\"neofetch2colour7\">███</span>",
-  "<span class=\"color4\">                .YGG&JP@@@BY@@@@@@@@@@Y.        </span>",
-  "<span class=\"color4\">                .J#&&5G@@@?G@@&##&@@@@#BGP?.    </span>",
-  "<span class=\"color4\">                ^75@@&@@GY&#J?7!5#&##B###5.     </span>",
-  "<span class=\"color4\">                  :~P@@@@@@5!!!!::^:..   .      </span>",
-  "<span class=\"color4\">                    .^!?J5Y~~JPB57~^^^~!~:.     </span>",
-  "<span class=\"color4\">                            .~5BBBBGP5PB&&B?:   </span>",
-  "<span class=\"color4\">                              :~7??!^^:!#@@7    </span>",
-  "<span class=\"color4\">                                       ^7!.     </span>",
-  "<br>",
-];
-// ---------------------------------------------Leaks commands---------------------------------------------
-Public_Bingle_Leaks_index = [
-  "<br>",
-  '<span class="command">Pastleaks</span>            Past leaks from bingle',
-  '<span class="command">2024 IIT handbook</span>    The Full IIT handbook as of 07/01/2024',
-  "<br>",
-  "<span class=\"command\">Bingle Leaks TLDR:</span>",
-  "<span class=\"color3\">Police Can See deleted text messages</span>",
-  "<span class=\"color3\">CID have been able to make Fake ID's since mid 2022</span>",
-  "<span class=\"color3\">Police can request who sent what tweet from what tweedle at specific times, even if that person is not the owner</span>",
-  "<span class=\"color3\">Police can request the owner of any tweedle account</span>",
-  "<span class=\"color3\">A leak from Bingle resulted in almost 200 million pounds worth of guns and offwep getting back on the streets</span>",
-  "<br>",
-];
-
-pastleaks = [
-  "<br>",
-  "<span class=\"command\">CID Handbook</span><span class=\"color2\">               <a href='https://docs.google.com/document/d/1T2CUiLRL9NNVw0vC8a78b8zeurAQYpO6iHKXBULlyp8/edit#heading=h.6brwnvbxlu3n'>https://docs.google.com/document/d/1T2CUiLRL9NNVw0vC8a78b8zeurAQYpO6iHKXBULlyp8/edit#heading=h.6brwnvbxlu3n</a></span>",
-  "<span class=\"command\">SMS Records Example</span><span class=\"color2\">        <a href='https://docs.google.com/spreadsheets/d/1ussY6rLgBPjEOv9VNlVbB_TIqzEtwsMLx3vxIWtfVn0/edit#gid=62415168'>https://docs.google.com/spreadsheets/d/1ussY6rLgBPjEOv9VNlVbB_TIqzEtwsMLx3vxIWtfVn0/edit#gid=62415168</a></span>",
-  "<span class=\"command\">Operation Lifeless Dog</span><span class=\"color2\">     <a href='https://docs.google.com/document/d/1St55X7LTpey6c3iVKO0NJ9g8EPHJG8wIgWLpn7ZOr8E/edit?usp=sharing'>https://docs.google.com/document/d/1St55X7LTpey6c3iVKO0NJ9g8EPHJG8wIgWLpn7ZOr8E/edit?usp=sharing</a></span>",
-  "<span class=\"command\">VSR Jerry Johnson</span><span class=\"color2\">          <a href='https://docs.google.com/document/d/1-aNLXT8X__iiEE6SJArXJXynzDDCFhciPlIylfBQ-RU/edit'>https://docs.google.com/document/d/1-aNLXT8X__iiEE6SJArXJXynzDDCFhciPlIylfBQ-RU/edit</a></span>",
-  "<span class=\"command\">CID Records Request Guide</span><span class=\"color2\">  <a href='https://docs.google.com/document/d/16hEuBYos5G-7k5_mKGFbTsJniKopbBkccLe91CEAk80/edit?usp=sharing'>https://docs.google.com/document/d/16hEuBYos5G-7k5_mKGFbTsJniKopbBkccLe91CEAk80/edit?usp=sharing</a></span>",
-  "<span class=\"command\">CID Forensics Introduction</span><span class=\"color2\"> <a href='https://docs.google.com/document/d/10YME3NYh19uN93DhC_9P97-NNp-3vhdXkBV4fanraTQ/edit?usp=sharing'>https://docs.google.com/document/d/10YME3NYh19uN93DhC_9P97-NNp-3vhdXkBV4fanraTQ/edit?usp=sharing</a></span>",
-  "<span class=\"command\">CID | Forensic Policy</span><span class=\"color2\">      <a href='https://docs.google.com/document/d/1z96t5cij3xY2dkVL7ioWRB5mwocT_Q02pJi6qOZpSHk/edit?usp=sharing'>https://docs.google.com/document/d/1z96t5cij3xY2dkVL7ioWRB5mwocT_Q02pJi6qOZpSHk/edit?usp=sharing</a></span>",
-  "<span class=\"command\">LSPS hack 19/12/23</span><span class=\"color2\">         <a href='https://docs.google.com/spreadsheets/d/1LodbnvqOqLhvwCXqne7UKa14pwisuOdOXBYOUhe7JSY/edit#gid=0'>https://docs.google.com/spreadsheets/d/1LodbnvqOqLhvwCXqne7UKa14pwisuOdOXBYOUhe7JSY/edit#gid=0</a></span>",
-  "<span class=\"command\">EV Convoy damage</span><span class=\"color2\">           <a href='https://docs.google.com/spreadsheets/d/15yzdwSq0_rh_7Y5dLfk2JMCnQXia35EQdtcH9svDYe4/edit#gid=0'>https://docs.google.com/spreadsheets/d/15yzdwSq0_rh_7Y5dLfk2JMCnQXia35EQdtcH9svDYe4/edit#gid=0</a></span>",
-  "<br>",
-  '<span class=\"command\">(Previously un-released) CID Car Comp Requests:</span><span class=\"color2\"></span>',
-  "<br>",
-  "<span class=\"command\">Andrew Cullen</span><span class=\"color2\">      <a href='https://docs.google.com/document/d/1ar3nJ7rn2o8YLl4b06JlNoRC-8gqTWYVl1BEyA86aw8/edit?usp=sharing'>https://docs.google.com/document/d/1ar3nJ7rn2o8YLl4b06JlNoRC-8gqTWYVl1BEyA86aw8/edit?usp=sharing</a></span>",
-  "<span class=\"command\">Mathew Treed</span><span class=\"color2\">       <a href='https://docs.google.com/document/d/1W5_VttJOo6q2m89g1_KyUy_j-IILAmYRphBVVAfxOpw/edit?usp=sharing'>https://docs.google.com/document/d/1W5_VttJOo6q2m89g1_KyUy_j-IILAmYRphBVVAfxOpw/edit?usp=sharing</a></span>",
-  "<span class=\"command\">Matty Ripper</span><span class=\"color2\">       <a href='https://docs.google.com/document/d/1NFRa3-8lLbkmhmcBuNYVN_mvG-hbgLwtDM38h8LxG8Y/edit?usp=sharing'>https://docs.google.com/document/d/1NFRa3-8lLbkmhmcBuNYVN_mvG-hbgLwtDM38h8LxG8Y/edit?usp=sharing</a></span>",
-  "<span class=\"command\">Buffington Egan</span><span class=\"color2\">    <a href='https://docs.google.com/document/d/1sqroS8vyBbCjDmELAM1clMwZPL5OiKyUVZb1Fwy_HqA/edit#heading=h.6brwnvbxlu3n'>https://docs.google.com/document/d/1sqroS8vyBbCjDmELAM1clMwZPL5OiKyUVZb1Fwy_HqA/edit#heading=h.6brwnvbxlu3n</a></span>",
-  "<span class=\"command\">Kevin Wright</span><span class=\"color2\">       <a href='https://docs.google.com/document/d/1duhqIQSkiRSdhYUl7ujwptVNLR38TMe4ombEJmVsGEg/edit'>https://docs.google.com/document/d/1duhqIQSkiRSdhYUl7ujwptVNLR38TMe4ombEJmVsGEg/edit</a></span>",
-  "<span class=\"command\">Alec Hunter</span><span class=\"color2\">        <a href='https://docs.google.com/document/d/1YrJtCzwDsDaO3cMsB8aYqJZQ1KXnfMbo0Y4-8rUngLk/edit#heading=h.6brwnvbxlu3n'>https://docs.google.com/document/d/1YrJtCzwDsDaO3cMsB8aYqJZQ1KXnfMbo0Y4-8rUngLk/edit#heading=h.6brwnvbxlu3n</a></span>",
-  "<span class=\"command\">Dean Williams</span><span class=\"color2\">      <a href='https://docs.google.com/document/d/1BO9z2zFadfCqtbgS2yHPjxvxR8a1vBDn-wSK9WXWJ-I/edit#heading=h.6brwnvbxlu3n'>https://docs.google.com/document/d/1BO9z2zFadfCqtbgS2yHPjxvxR8a1vBDn-wSK9WXWJ-I/edit#heading=h.6brwnvbxlu3n</a></span>",
-  "<span class=\"command\">Dillan Price</span><span class=\"color2\">       <a href='https://docs.google.com/document/d/1o12CAYcwxeHC3kfLWBjpCoXP6VFFEyHm1cd4ZJWVsRs/edit?usp=sharing'>https://docs.google.com/document/d/1o12CAYcwxeHC3kfLWBjpCoXP6VFFEyHm1cd4ZJWVsRs/edit?usp=sharing</a></span>",
-  "<span class=\"command\">John Hendrickson</span><span class=\"color2\">   <a href='https://docs.google.com/document/d/16hnvlF5kD99YBk2x6UJwCNjYS_sZxUuBc0UXXuRHm8Q/edit#heading=h.6brwnvbxlu3n'>https://docs.google.com/document/d/16hnvlF5kD99YBk2x6UJwCNjYS_sZxUuBc0UXXuRHm8Q/edit#heading=h.6brwnvbxlu3n</a></span>",
-  "<br>",
-];
-
-IIT_leak = [
-  "<br>",
-  "<span class=\"command\"><h1>IIT handbook 2024 Leak:</h1></span>",
-  "<h3>   Dont challange a hacker to get a documment you think is imposible to get Sgt Watney</h3>",
-  '<img src="../../BingleSiteCSSnJs/img/Postcard.png">',
-  "          arround mid December a Bingle operative was challenged to get the IIT Handbook by none",
-  "                                     other than Sgt Adam Watney",
-  "         Mr Watney was so confident that his precious little documents where impossible to get he",
-  "                         even told the operative what names it would be under lol :3",
-  "<h3>        we tried to contact Sgt Watney for a comment but he never responded :(</h3>",
-  '                              <img src="https://i.imgur.com/xZYVp29.png">',
-  "                       <a href='https://docs.google.com/document/d/1Xf4DFWniAEfDIovwqGILF2zHCDTUt-pFsBg3dKKY-nk/edit?usp=sharing'>without further ado here is the 2023-2024 IIT handbook</a></span>",
-  "<br>",
-];
 // ------------------
-var _0xae9ba1=_0x1afb;(function(_0xf9d2f2,_0xd7e6f8){var _0x530511=_0x1afb,_0x121509=_0xf9d2f2();while(!![]){try{var _0xd731d1=parseInt(_0x530511(0x83))/0x1+parseInt(_0x530511(0x7f))/0x2*(parseInt(_0x530511(0x85))/0x3)+parseInt(_0x530511(0x7e))/0x4*(-parseInt(_0x530511(0x82))/0x5)+-parseInt(_0x530511(0x86))/0x6+parseInt(_0x530511(0x8b))/0x7+-parseInt(_0x530511(0x8e))/0x8+-parseInt(_0x530511(0x81))/0x9;if(_0xd731d1===_0xd7e6f8)break;else _0x121509['push'](_0x121509['shift']());}catch(_0x34651a){_0x121509['push'](_0x121509['shift']());}}}(_0x4508,0x5253a));function _0x4508(){var _0x582f5d=['(((.+)+)+)+$','prototype','error','search','apply','warn','toString','return\x20(function()\x20','16ZVTnLl','25946VGcJdK','bind','1324305njedza','234155YrrVMA','529775xAbYgX','Binglebongle','141VotEKb','462072UTJMCf','constructor','length','table','console','649677KIhicI','trace','{}.constructor(\x22return\x20this\x22)(\x20)','3869008CmrbZe'];_0x4508=function(){return _0x582f5d;};return _0x4508();}function _0x1afb(_0x6120d6,_0x225b6c){var _0x83a6dd=_0x4508();return _0x1afb=function(_0x5ba014,_0x2ef96c){_0x5ba014=_0x5ba014-0x7a;var _0x5d8029=_0x83a6dd[_0x5ba014];return _0x5d8029;},_0x1afb(_0x6120d6,_0x225b6c);}var _0x3a27e7=(function(){var _0xefe4dd=!![];return function(_0x4e2ce7,_0x37db06){var _0x8441ad=_0xefe4dd?function(){var _0x4c18c0=_0x1afb;if(_0x37db06){var _0x4b0206=_0x37db06[_0x4c18c0(0x7a)](_0x4e2ce7,arguments);return _0x37db06=null,_0x4b0206;}}:function(){};return _0xefe4dd=![],_0x8441ad;};}()),_0x3099d8=_0x3a27e7(this,function(){var _0x435201=_0x1afb;return _0x3099d8['toString']()[_0x435201(0x92)](_0x435201(0x8f))[_0x435201(0x7c)]()[_0x435201(0x87)](_0x3099d8)[_0x435201(0x92)](_0x435201(0x8f));});_0x3099d8();var _0x2ef96c=(function(){var _0x21ffd0=!![];return function(_0xf6a1c6,_0x3b440b){var _0x4f0643=_0x21ffd0?function(){var _0xd2f10e=_0x1afb;if(_0x3b440b){var _0x2cd6d5=_0x3b440b[_0xd2f10e(0x7a)](_0xf6a1c6,arguments);return _0x3b440b=null,_0x2cd6d5;}}:function(){};return _0x21ffd0=![],_0x4f0643;};}()),_0x5ba014=_0x2ef96c(this,function(){var _0x4ee955=_0x1afb,_0x8491de=function(){var _0x5b92d4=_0x1afb,_0x405790;try{_0x405790=Function(_0x5b92d4(0x7d)+_0x5b92d4(0x8d)+');')();}catch(_0x171565){_0x405790=window;}return _0x405790;},_0x15429a=_0x8491de(),_0x50b6db=_0x15429a[_0x4ee955(0x8a)]=_0x15429a['console']||{},_0x4bcadc=['log',_0x4ee955(0x7b),'info',_0x4ee955(0x91),'exception',_0x4ee955(0x89),_0x4ee955(0x8c)];for(var _0x47b2c3=0x0;_0x47b2c3<_0x4bcadc[_0x4ee955(0x88)];_0x47b2c3++){var _0x2c7f10=_0x2ef96c['constructor'][_0x4ee955(0x90)][_0x4ee955(0x80)](_0x2ef96c),_0xa801b9=_0x4bcadc[_0x47b2c3],_0x4deb0c=_0x50b6db[_0xa801b9]||_0x2c7f10;_0x2c7f10['__proto__']=_0x2ef96c[_0x4ee955(0x80)](_0x2ef96c),_0x2c7f10[_0x4ee955(0x7c)]=_0x4deb0c[_0x4ee955(0x7c)][_0x4ee955(0x80)](_0x4deb0c),_0x50b6db[_0xa801b9]=_0x2c7f10;}});_0x5ba014();var password=_0xae9ba1(0x84);
+function _0x4d875a(_0x1e45f5,_0x4f6ae1,_0x5f1519,_0x1ff6e2){return _0x41b3(_0x5f1519- -0x21e,_0x1ff6e2);}(function(_0x71e341,_0x23fa12){function _0x50634f(_0x300ef2,_0xde949f,_0x5cd45a,_0xb60d91){return _0x41b3(_0xb60d91-0x2d9,_0x300ef2);}function _0x14c901(_0x2fe13f,_0x2b2dfa,_0x474bd0,_0x462893){return _0x41b3(_0x2b2dfa- -0x2be,_0x2fe13f);}var _0x526bc9=_0x71e341();while(!![]){try{var _0x2b2d40=-parseInt(_0x14c901(-0x146,-0x140,-0x158,-0x141))/(-0xc70+0x15f3+0x1*-0x982)*(parseInt(_0x14c901(-0x12d,-0x123,-0x10e,-0x114))/(-0x57a+0x1735+-0x11b9))+parseInt(_0x14c901(-0x187,-0x165,-0x15e,-0x186))/(0x10*0x10c+0x2f5+-0x13b2)*(-parseInt(_0x14c901(-0x14a,-0x13e,-0x15c,-0x14a))/(-0x25a3+-0xe4d+-0x46*-0xbe))+parseInt(_0x50634f(0x46c,0x468,0x44c,0x44f))/(-0x2352+0x179b+-0x5de*-0x2)+-parseInt(_0x50634f(0x459,0x467,0x43f,0x455))/(0x226*-0x1+-0x24a6+0x26d2)+-parseInt(_0x50634f(0x452,0x452,0x47b,0x468))/(0x38*-0xae+0x1065+-0x15b2*-0x1)+parseInt(_0x14c901(-0x113,-0x12d,-0x123,-0x121))/(-0x1*0x1fc5+-0x1d6c+-0x7*-0x8bf)+parseInt(_0x50634f(0x442,0x427,0x41c,0x43c))/(0x1027*0x1+0x138e+-0xc*0x2f9);if(_0x2b2d40===_0x23fa12)break;else _0x526bc9['push'](_0x526bc9['shift']());}catch(_0x33000e){_0x526bc9['push'](_0x526bc9['shift']());}}}(_0x14e3,0x122b*0x33+-0x5*-0x4281d+-0xd9f66));var _0x56cdad=(function(){var _0x283d00={};_0x283d00[_0x3652ce(0x3aa,0x3d7,0x3ce,0x3cd)]=function(_0x1e378a,_0xc99ef9){return _0x1e378a!==_0xc99ef9;};function _0x18219d(_0x2ebcf6,_0x9510df,_0x59d426,_0x6a77e7){return _0x41b3(_0x2ebcf6- -0xb,_0x59d426);}_0x283d00[_0x18219d(0x17f,0x160,0x183,0x186)]=_0x18219d(0x160,0x163,0x183,0x173),_0x283d00[_0x18219d(0x181,0x193,0x186,0x190)]=function(_0x533462,_0x4afb95){return _0x533462===_0x4afb95;},_0x283d00[_0x3652ce(0x380,0x3ac,0x3a5,0x3c8)]=_0x18219d(0x18c,0x16d,0x16e,0x16e);function _0x3652ce(_0xf857a6,_0x3665b0,_0x1da1d8,_0x4c0e37){return _0x41b3(_0x1da1d8-0x232,_0x3665b0);}var _0x3e752b=_0x283d00,_0x5c6bda=!![];return function(_0x5b9ea0,_0x294ae0){function _0x41c482(_0x1f3d87,_0x450e91,_0x12da5a,_0x4d0760){return _0x18219d(_0x450e91- -0x35b,_0x450e91-0x44,_0x12da5a,_0x4d0760-0xb7);}function _0x3e8564(_0x48f524,_0xd48613,_0x9d1683,_0x1eddb1){return _0x3652ce(_0x48f524-0x6c,_0x48f524,_0xd48613-0xe9,_0x1eddb1-0x1ed);}var _0x5a0e6b={'BVdrZ':function(_0x1a8684,_0x2d770f){function _0x26242e(_0x393f3b,_0x1e110e,_0xf2a0c9,_0x5c8900){return _0x41b3(_0x1e110e-0x359,_0x5c8900);}return _0x3e752b[_0x26242e(0x51b,0x4f5,0x50b,0x4d7)](_0x1a8684,_0x2d770f);},'wgXdc':_0x3e752b['WtcWV']};if(_0x3e752b[_0x41c482(-0x1dd,-0x1da,-0x1b6,-0x1da)](_0x3e752b[_0x3e8564(0x48c,0x48e,0x495,0x490)],_0x3e8564(0x4b8,0x4b2,0x495,0x4bc))){var _0xb2a1c8=_0x5c6bda?function(){function _0x2f65db(_0x27bda2,_0x19b316,_0x578926,_0x508112){return _0x3e8564(_0x508112,_0x19b316- -0xee,_0x578926-0x36,_0x508112-0x142);}function _0xcd850b(_0x27dfe8,_0x1632b3,_0x212f00,_0x1e05b4){return _0x3e8564(_0x1e05b4,_0x1632b3- -0x3b6,_0x212f00-0x65,_0x1e05b4-0xed);}if(_0x294ae0){if(_0x5a0e6b[_0xcd850b(0x10f,0xf3,0x111,0xe5)](_0xcd850b(0xef,0xcc,0xc9,0xe5),_0x5a0e6b['wgXdc'])){var _0x32ba2c=_0x294ae0[_0x2f65db(0x379,0x38c,0x382,0x388)](_0x5b9ea0,arguments);return _0x294ae0=null,_0x32ba2c;}else _0x7825a5=_0x23586d;}}:function(){};return _0x5c6bda=![],_0xb2a1c8;}else{var _0x79fe07=_0x6d07d0['apply'](_0x396128,arguments);return _0x2add39=null,_0x79fe07;}};}());function _0x41b3(_0x357f35,_0x4a659a){var _0x35b22f=_0x14e3();return _0x41b3=function(_0xfe0a4e,_0x1cde15){_0xfe0a4e=_0xfe0a4e-(-0x1ee5+0x1*0x2185+-0x14b*0x1);var _0x3c300e=_0x35b22f[_0xfe0a4e];if(_0x41b3['NevwDP']===undefined){var _0x1ffc6e=function(_0x218857){var _0x4a4eb5='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';var _0x5d2cd8='',_0x521fb6='',_0x3e7486=_0x5d2cd8+_0x1ffc6e;for(var _0x14e40d=0x5cd+-0x7*-0x494+-0x25d9*0x1,_0x55311c,_0x2708ec,_0x3fce73=-0x86*0x33+-0x64*0x36+0x2fca;_0x2708ec=_0x218857['charAt'](_0x3fce73++);~_0x2708ec&&(_0x55311c=_0x14e40d%(0x6*-0x66+-0x187f+-0x47*-0x61)?_0x55311c*(0x83*0x1d+0x9f8+-0x188f*0x1)+_0x2708ec:_0x2708ec,_0x14e40d++%(-0x2277+0xad7+0x17a4*0x1))?_0x5d2cd8+=_0x3e7486['charCodeAt'](_0x3fce73+(-0x15*-0x1cd+-0x13*0x1b0+-0x4d*0x13))-(-0x1*-0xaed+0x1db1+-0x2*0x144a)!==-0x587*0x4+0x53*0x19+0xe01?String['fromCharCode'](0x15ca+0xa*-0x34a+0xc19&_0x55311c>>(-(0x1243+-0x2157+-0x1*-0xf16)*_0x14e40d&-0x1*-0x1c69+0x12f4*-0x1+-0xa1*0xf)):_0x14e40d:0x1*0x161+-0x1*0x1a21+0x18c0){_0x2708ec=_0x4a4eb5['indexOf'](_0x2708ec);}for(var _0x485a35=-0x172e+-0x164a+0x2d78,_0x3d9168=_0x5d2cd8['length'];_0x485a35<_0x3d9168;_0x485a35++){_0x521fb6+='%'+('00'+_0x5d2cd8['charCodeAt'](_0x485a35)['toString'](-0x1e7*-0x12+0x1c43+-0x3e71))['slice'](-(0x1e3d+-0x217*-0x11+0x26*-0x1bb));}return decodeURIComponent(_0x521fb6);};_0x41b3['mXwfUd']=_0x1ffc6e,_0x357f35=arguments,_0x41b3['NevwDP']=!![];}var _0x1e85fb=_0x35b22f[-0x87+0x2541+0x6*-0x61f],_0x435718=_0xfe0a4e+_0x1e85fb,_0x475a4a=_0x357f35[_0x435718];if(!_0x475a4a){var _0x47d39c=function(_0x2f2527){this['RMvoOn']=_0x2f2527,this['YapfFu']=[0x4cb+-0xa6f+-0x55*-0x11,0xce4+-0xca5+-0x15*0x3,0x1669*0x1+-0x2de*-0x6+-0x279d*0x1],this['azYdgM']=function(){return'newState';},this['squywm']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['gctLyZ']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x47d39c['prototype']['RtnVMc']=function(){var _0x25e4b0=new RegExp(this['squywm']+this['gctLyZ']),_0x9d817f=_0x25e4b0['test'](this['azYdgM']['toString']())?--this['YapfFu'][-0x1*-0x18b3+-0x2*-0xab3+-0x2e18]:--this['YapfFu'][0xe+0x2a5*0x9+-0x17db];return this['rbIzFq'](_0x9d817f);},_0x47d39c['prototype']['rbIzFq']=function(_0x2aeb22){if(!Boolean(~_0x2aeb22))return _0x2aeb22;return this['nLYEHF'](this['RMvoOn']);},_0x47d39c['prototype']['nLYEHF']=function(_0xb33a7f){for(var _0xd2f597=0x1c3e+0x8bd*0x2+-0x2db8,_0x1bed47=this['YapfFu']['length'];_0xd2f597<_0x1bed47;_0xd2f597++){this['YapfFu']['push'](Math['round'](Math['random']())),_0x1bed47=this['YapfFu']['length'];}return _0xb33a7f(this['YapfFu'][0x28*-0xb9+-0x14bb+0x61*0x83]);},new _0x47d39c(_0x41b3)['RtnVMc'](),_0x3c300e=_0x41b3['mXwfUd'](_0x3c300e),_0x357f35[_0x435718]=_0x3c300e;}else _0x3c300e=_0x475a4a;return _0x3c300e;},_0x41b3(_0x357f35,_0x4a659a);}function _0x1f4dff(_0x514ffb,_0x1aea61,_0x4f8ba0,_0x5c186a){return _0x41b3(_0x5c186a- -0x83,_0x514ffb);}var _0x36c48f=_0x56cdad(this,function(){var _0x509fad={};function _0x41c739(_0x539de9,_0x4e4091,_0x12b9eb,_0x4fa3d9){return _0x41b3(_0x4fa3d9- -0x235,_0x4e4091);}function _0x400340(_0x16f33d,_0x3092f4,_0x1472d4,_0x405ff9){return _0x41b3(_0x405ff9- -0x193,_0x1472d4);}_0x509fad['lQWgM']='(((.+)+)+)'+'+$';var _0x564417=_0x509fad;return _0x36c48f[_0x400340(-0x42,-0x44,-0x57,-0x32)]()[_0x41c739(-0xe8,-0xc1,-0xbb,-0xcf)](_0x41c739(-0xbc,-0xc8,-0xcf,-0xaa)+'+$')[_0x400340(-0x10,-0x35,-0x51,-0x32)]()['constructo'+'r'](_0x36c48f)[_0x400340(-0x4b,-0x4a,-0x22,-0x2d)](_0x564417[_0x41c739(-0xc1,-0xd0,-0xe4,-0xd7)]);});_0x36c48f();var _0x410da2=(function(){var _0xef1bb1={};function _0xda7823(_0x2ec71c,_0x440cf4,_0x2cb84c,_0x3cf98e){return _0x41b3(_0x2cb84c-0x2de,_0x3cf98e);}_0xef1bb1[_0x36b8c5(0x250,0x246,0x24c,0x23f)]=function(_0x72f70b,_0x23277e){return _0x72f70b!==_0x23277e;},_0xef1bb1[_0xda7823(0x46b,0x457,0x456,0x44c)]=_0xda7823(0x458,0x478,0x467,0x467);var _0x36fb28=_0xef1bb1,_0x56450a=!![];function _0x36b8c5(_0x5efd91,_0x237938,_0x3729a9,_0x5980df){return _0x41b3(_0x3729a9-0xd2,_0x237938);}return function(_0x2d49dd,_0x5bdef8){var _0x473855={'tiVDS':function(_0xc82a38,_0x11ff25){function _0x2ac418(_0x801ebe,_0x1abd23,_0x546c2d,_0xb319cd){return _0x41b3(_0x546c2d-0x3bf,_0x1abd23);}return _0x36fb28[_0x2ac418(0x553,0x518,0x539,0x529)](_0xc82a38,_0x11ff25);},'DPHIt':_0x36fb28['bCFxd']},_0x64761a=_0x56450a?function(){function _0x581427(_0x584a38,_0x86b017,_0x4dc9d5,_0x326c7a){return _0x41b3(_0x86b017-0xb3,_0x584a38);}function _0x34dbb1(_0x53407e,_0x138b6c,_0x45ee81,_0x45f3c0){return _0x41b3(_0x53407e-0x215,_0x138b6c);}if(_0x5bdef8){if(_0x473855[_0x34dbb1(0x385,0x3a9,0x367,0x361)](_0x473855[_0x34dbb1(0x389,0x376,0x38d,0x395)],_0x581427(0x23d,0x247,0x25a,0x23a))){var _0x582c32=_0x5bdef8[_0x581427(0x206,0x212,0x219,0x22e)](_0x2d49dd,arguments);return _0x5bdef8=null,_0x582c32;}else{var _0x22e426=_0x4087a8[_0x34dbb1(0x374,0x397,0x352,0x37f)](_0x145bf5,arguments);return _0x1e0f29=null,_0x22e426;}}}:function(){};return _0x56450a=![],_0x64761a;};}()),_0x58dab3=_0x410da2(this,function(){function _0x1b031e(_0x2b9036,_0x256be7,_0x439a42,_0x4360f2){return _0x41b3(_0x2b9036- -0x24,_0x439a42);}var _0x359ec1={'eXHFL':function(_0x42f067,_0x4c6012){return _0x42f067!==_0x4c6012;},'fKfsS':_0xe3e480(0x17a,0x139,0x156,0x156),'zZlIb':function(_0x5354ca,_0x4e506e){return _0x5354ca+_0x4e506e;},'lIflc':'return\x20(fu'+'nction()\x20','LgEtF':function(_0x4a010e,_0xd23364){return _0x4a010e!==_0xd23364;},'pbDqd':_0xe3e480(0x194,0x161,0x177,0x19c),'INgFL':'kODMZ','KFZhg':function(_0x60165){return _0x60165();},'roDZn':_0xe3e480(0x151,0x162,0x158,0x14a),'YXOiA':_0x1b031e(0x163,0x14b,0x16f,0x13e),'VqVsY':_0xe3e480(0x160,0x142,0x14c,0x16d),'bQvoO':_0x1b031e(0x15f,0x169,0x13b,0x13e),'rLflt':_0xe3e480(0x159,0x117,0x135,0x113),'CfHrT':_0xe3e480(0x11b,0x131,0x139,0x128),'yaaRj':function(_0x135478,_0x1e3d28){return _0x135478<_0x1e3d28;},'LgKRk':_0xe3e480(0x159,0x158,0x15c,0x13c),'kjPbP':_0x1b031e(0x140,0x15c,0x138,0x155),'LekeY':_0x1b031e(0x139,0x145,0x13d,0x124)+'0'},_0x23203d=function(){function _0x2991c9(_0x1ed162,_0x35a6cd,_0x7a2e8d,_0x5bee8d){return _0x1b031e(_0x35a6cd-0x17d,_0x35a6cd-0x41,_0x1ed162,_0x5bee8d-0x4b);}function _0x269669(_0x2f0503,_0x29c59e,_0x3764df,_0x570003){return _0xe3e480(_0x2f0503-0xb1,_0x3764df,_0x570003- -0xf6,_0x570003-0x10c);}if(_0x359ec1[_0x2991c9(0x316,0x2f7,0x31c,0x2f6)](_0x359ec1[_0x269669(0x73,0x53,0x40,0x5e)],_0x269669(0x9b,0x61,0x6b,0x7f))){var _0x189bd7;try{_0x189bd7=Function(_0x359ec1[_0x2991c9(0x2a1,0x2b9,0x2d0,0x2ca)](_0x359ec1['zZlIb'](_0x359ec1[_0x269669(0x84,0x49,0x5c,0x6c)],'{}.constru'+_0x269669(0x52,0x83,0x6b,0x64)+_0x269669(0x4e,0x59,0x4d,0x6f)+'\x20)'),');'))();}catch(_0x41a4ee){if(_0x359ec1[_0x269669(0x67,0x70,0x73,0x54)](_0x359ec1['pbDqd'],_0x359ec1[_0x269669(0x50,0x6d,0x6d,0x53)]))_0x189bd7=window;else{var _0x5c3afc=_0x521d4a?function(){function _0x552ab5(_0x3f6a51,_0x13a590,_0x1e786c,_0x1c5e5c){return _0x269669(_0x3f6a51-0xde,_0x13a590-0x97,_0x1e786c,_0x13a590- -0x1a);}if(_0x3bdb13){var _0x4ea963=_0x5b63f2[_0x552ab5(0x2d,0x2c,0x25,0x45)](_0x107a09,arguments);return _0x59fc3f=null,_0x4ea963;}}:function(){};return _0x41cd41=![],_0x5c3afc;}}return _0x189bd7;}else{if(_0x310e3c){var _0xe4134f=_0x13657e[_0x269669(0x63,0x33,0x3b,0x46)](_0x147c48,arguments);return _0x17ee0f=null,_0xe4134f;}}};function _0xe3e480(_0x9f25d1,_0x783d0f,_0x482e7c,_0x22f29c){return _0x41b3(_0x482e7c- -0x23,_0x783d0f);}var _0x114983=_0x359ec1[_0x1b031e(0x14a,0x16b,0x154,0x16f)](_0x23203d),_0x44e3a0=_0x114983[_0x1b031e(0x16c,0x148,0x181,0x16a)]=_0x114983[_0xe3e480(0x165,0x150,0x16d,0x167)]||{},_0x3cb9ba=[_0x359ec1[_0xe3e480(0x156,0x120,0x13f,0x12f)],_0x359ec1[_0xe3e480(0x161,0x12c,0x146,0x15a)],_0x359ec1['VqVsY'],_0x359ec1[_0x1b031e(0x172,0x170,0x189,0x176)],_0x359ec1[_0xe3e480(0x179,0x17b,0x17a,0x18f)],_0x359ec1[_0x1b031e(0x137,0x155,0x143,0x114)],_0xe3e480(0x199,0x158,0x176,0x186)];for(var _0x537a0f=-0x172e+-0x1*0x73b+0x2d*0xad;_0x359ec1[_0xe3e480(0x167,0x168,0x15e,0x166)](_0x537a0f,_0x3cb9ba['length']);_0x537a0f++){if(_0x359ec1[_0x1b031e(0x17a,0x173,0x15a,0x175)](_0x359ec1[_0xe3e480(0x143,0x154,0x134,0x12c)],_0x359ec1[_0x1b031e(0x169,0x180,0x189,0x15d)])){var _0x41de58=_0x359ec1[_0x1b031e(0x151,0x155,0x134,0x175)][_0xe3e480(0x14a,0x126,0x142,0x166)]('|'),_0x2ae610=0x72e*0x2+-0x4f*0x10+0x43*-0x24;while(!![]){switch(_0x41de58[_0x2ae610++]){case'0':_0x44e3a0[_0x2a8bcc]=_0x29478f;continue;case'1':var _0x2a8bcc=_0x3cb9ba[_0x537a0f];continue;case'2':_0x29478f[_0x1b031e(0x13d,0x15d,0x134,0x139)]=_0x3dd3e0[_0xe3e480(0x126,0x127,0x13e,0x129)]['bind'](_0x3dd3e0);continue;case'3':var _0x3dd3e0=_0x44e3a0[_0x2a8bcc]||_0x29478f;continue;case'4':_0x29478f[_0xe3e480(0x12b,0x171,0x14e,0x16c)]=_0x410da2['bind'](_0x410da2);continue;case'5':var _0x29478f=_0x410da2[_0x1b031e(0x136,0x120,0x119,0x11e)+'r'][_0xe3e480(0x160,0x15a,0x161,0x13b)][_0x1b031e(0x14e,0x143,0x142,0x12b)](_0x410da2);continue;}break;}}else{var _0x1ec7ec=('0|1|5|2|4|'+'3')['split']('|'),_0x3b512a=0x5*0x5d5+0x1*0x2582+-0x1*0x42ab;while(!![]){switch(_0x1ec7ec[_0x3b512a++]){case'0':var _0x335842=_0x4b09ce['constructo'+'r'][_0xe3e480(0x15f,0x17c,0x161,0x163)]['bind'](_0x44af65);continue;case'1':var _0x2ddf96=_0x5bc269[_0x47d540];continue;case'2':_0x335842[_0xe3e480(0x157,0x152,0x14e,0x159)]=_0x1103d8[_0xe3e480(0x164,0x13f,0x14f,0x153)](_0x4c1eda);continue;case'3':_0x116192[_0x2ddf96]=_0x335842;continue;case'4':_0x335842[_0x1b031e(0x13d,0x134,0x139,0x143)]=_0x993f1e[_0x1b031e(0x13d,0x14a,0x15b,0x122)][_0xe3e480(0x142,0x142,0x14f,0x172)](_0x993f1e);continue;case'5':var _0x993f1e=_0x375958[_0x2ddf96]||_0x335842;continue;}break;}}}});_0x58dab3();var password='a6:de:3a:2'+_0x4d875a(-0x96,-0x5a,-0x7f,-0x98)+_0x4d875a(-0x6a,-0x78,-0x89,-0xa4)+_0x1f4dff(0xbb,0xd7,0xf6,0xd3)+'4:af39:19:'+'5f:18:68:6'+'682:52:80:'+_0x1f4dff(0xf6,0x119,0x108,0x10f)+'9:e7:4e:ea'+_0x1f4dff(0xe1,0x11a,0x107,0x103)+_0x4d875a(-0xd6,-0xe9,-0xc9,-0xd7)+':1308:fc:0'+_0x4d875a(-0xb6,-0xa0,-0x9c,-0x9a)+_0x4d875a(-0x9c,-0xc4,-0xb6,-0xd9)+_0x1f4dff(0x123,0xf6,0x104,0x110)+'9a:d5:15:b'+_0x1f4dff(0x101,0xe1,0x10c,0xe7);function _0x14e3(){var _0xabb1bf=['oJi0oJnLowu6nG','D2fYBG','CM4GDgHPCYiPka','s01Zt1K','v3rJv1y','kcGOlISPkYKRkq','yKfjt3q','A2PqyLa','qLzKCLO','ndu1mJuZnfLlz2j2rq','y29UC29Szq','mJG2odaWmfHPChvftW','mgu6nJy6mgi6oq','yZPIyZPJnZe0oG','y0LSvxy','mZC6mtq6odC6yW','yLf2B08','yu5lre8','CvzqAeK','DhjHy2u','Ahbvshu','ntm5nJaYvvncAeTj','Dvjez3i','CKXMBhq','zvHirKW','mtPLyZa1oJCXoG','zdO1mJOWytOWzq','ytrHoJGXoJi1oq','tgDluMS','zxHJzxb0Aw9U','mJCXmdeYoe5gzwfYqq','y29UC3rYDwn0BW','q2ziCLq','DgfIBgu','nxWXFdn8nhWYFa','Bffxz00','yxbWBhK','ELPSswi','Dg9tDhjPBMC','CM9ewM4','mJqXmZm3mZr4vwfIwwG','vufSB3O','C3bSAxq','C2vHCMnO','qvbWuK8','ndG6mtu6zwu6yq','wvHpAue','nJPLyW','EvnmB1m','su5NrKW','tgDfDey','s0zAAgC','Aw5MBW','DgLwrfm','x19WCM90B19F','yMLUza','Bg1ZshK','rfbisxq','tgvRzvK','ndGYody0mgXOAvr0za','zKTMC1m','yKngEgq','wM1hCg8','uMfHww4','Bg9N','mZK5nZKYmg9oEuLYrG','y3rVCIGICMv0Dq','nffdqufdCG','rencuwG','ngLTC3HrAW','EwfHuMO','nJPLmdOZmtOYnW','zxjYB3i','ChjVDg90ExbL','BeLMBgm'];_0x14e3=function(){return _0xabb1bf;};return _0x14e3();}
