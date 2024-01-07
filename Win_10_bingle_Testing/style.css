@@ -14,7 +14,7 @@ body {
 
 .desktop {
   height: 100vh;
-  background: url(https://i.imgur.com/SmV8U9J.jpg);
+  background: url(https://i.imgur.com/FlKHQhG.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -35,19 +35,13 @@ body {
   display: inline-block;
 }
 
-.taskbar .icons-left #start-menu, .taskbar .icons-left #tabs-windows {
+.taskbar .icons-left #start-menu {
   height: 43px;
-  width: 48px;
-  position: relative;
-}
-
-.taskbar .icons-left #start-menu i, .taskbar .icons-left #tabs-windows i {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 21px;
-  color: white;
+  width: 49px;
+  background-image: url("https://i.imgur.com/KJgGwt9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 22px 22px;
 }
 
 .taskbar .icons-left #search {
@@ -253,7 +247,7 @@ body {
 }
 
 .desktop #sound-modal {
-  background: #005a9e;
+  background: #272727;
   position: absolute;
   right: 0;
   bottom: 43px;
@@ -296,13 +290,13 @@ body {
 .desktop #sound-modal .sound-progress .bar-sound {
   width: 230px;
   height: 5px;
-  background: linear-gradient(to right, #2989d8 0%, #2989d8 50%, grey 51%, grey 51%);
+  background: linear-gradient(to right, #535353 0%, #535353 50%, grey 51%, grey 51%);
 }
 
 .desktop #sound-modal .sound-progress .bar-sound-drag {
   height: 20px;
   width: 7px;
-  background: #0078d7;
+  background: #727272;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -334,7 +328,7 @@ body {
 
 /* Wifi */
 #wifi-modal {
-  background: #005a9e;
+  background: #272727;
   position: absolute;
   right: 0;
   bottom: 43px;
@@ -375,11 +369,11 @@ body {
 }
 
 #wifi-modal .list-networks .networks:first-child {
-  background: rgba(255, 255, 255, 0.1);
+  background: #272727;
 }
 
 #wifi-modal .list-networks .networks:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(121, 121, 121, 0.15)
 }
 
 #wifi-modal .list-networks .networks span.name-wifi {
@@ -420,7 +414,7 @@ body {
 #wifi-modal .list-networks .networks button {
   display: block;
   color: white;
-  background: #338ed6;
+  background: #272727;
   border: 2px solid transparent;
   padding-left: 40px;
   padding-right: 40px;
@@ -436,7 +430,7 @@ body {
 }
 
 #wifi-modal .list-networks .networks button:focus {
-  background: #66aae0;
+  background: #4d4d4d;
   outline: none;
   border: 2px solid transparent;
 }
@@ -504,7 +498,7 @@ body {
 }
 
 #start-menu-modal {
-  background: #272727;
+  background: #444444;
   position: absolute;
   left: 0;
   bottom: 43px;
@@ -651,7 +645,7 @@ body {
 }
 
 #start-menu-modal #others .box-others .box:hover {
-  border: 2px solid #7fbbeb;
+  border: 2px solid #474747;
 }
 
 /* ==========================================================================
@@ -693,6 +687,30 @@ body {
 }
 
 #hack-pop-up iframe {
+  height: 100vh;
+  width: 100%;
+}
+
+#plans-pop-up {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 804px;
+  width: 1295px;
+  background: rgb(39, 39, 39);
+  visibility: hidden;
+  border: 2px solid #272727;
+  z-index: 1;
+  resize: both;
+  overflow-y: hidden;
+  box-shadow: 0 0 25px #070707;
+}
+#plans-pop-up:target {
+  visibility: visible;
+}
+
+#plans-pop-up iframe {
   height: 100vh;
   width: 100%;
 }
