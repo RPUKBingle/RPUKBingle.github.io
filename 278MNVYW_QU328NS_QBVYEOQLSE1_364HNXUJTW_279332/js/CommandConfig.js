@@ -9,7 +9,7 @@ help = [
 
 members_portal = [
   "<br>",
-  '<span class="command">A32342ML_245</span>      How to use WW',
+  '<span class="command">A32342ML_245</span>      How to use Watware',
   '<span class="command">B16352ML_134</span>      MCN DB File',
   '<span class="command">C38528ML_732</span>      ACN DB File',
   "<span class='command'>D23490ML_476</span>      Internal Bingle Memo's",
@@ -20,7 +20,18 @@ members_portal = [
 
 a32342ml_245 = [
   // how to use Watware
-  "<h2> How to use Watware</h2>",
+  "<h1>           How to use Watware<br><b>---------------MCN & NFPE---------------</b></h2>",
+  "                             <img src='https://i.imgur.com/cyGn6LC.png'></img>",
+  "Watware is a useful tool that can be utilised by member's+ with the aproveal",
+  "                              of an SCO+ opritive",
+  "Watware is worth £10,000,000 PER STICK!! You will need a big reason to take",
+  "                               it out and use it",
+  "this is why you will need clearance to use watware, From SCO+ opritives",
+  "You will also need to prove to command you can hack with watware concictantly",
+  "                                with ZERO fails",
+  "Under 30 seconds consitantly before being concidered to handle the device",
+  "<h1><b>--------Watware hack in Progress--------</b></h2>",
+  "<img src='https://i.imgur.com/Z17VkQX.png'></img>",
 ];
 
 

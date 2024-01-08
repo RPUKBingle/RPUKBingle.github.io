@@ -26,6 +26,7 @@ pw=!1;let pwd=!1;var commands=[];function enterKey(e){if(181==e.keyCode&&documen
     ;case"c38528ml_732":addLine("Opening ACN Database File...","color2",0),newTab(acn_db);break
     ;case"b16352ml_134":addLine("Opening MCN Database File...","color2",0),newTab(mcn_db);break
     ;case"f28561ml_295":loopLines(Loading,"",80),newTab(lsps_handbook);break
+    ;case"a32342ml_245":loopLines(a32342ml_245,"",80);break
     //;case"linkedin":addLine("Opening LinkedIn...","color2",0),newTab(linkedin);break
     //;case"instagram":addLine("Opening Instagram...","color2",0),newTab(instagram);break
     //;case"github":addLine("Opening GitHub...","color2",0),newTab(github);break
@@ -35,7 +36,7 @@ pw=!1;let pwd=!1;var commands=[];function enterKey(e){if(181==e.keyCode&&documen
     function newTab(link){setTimeout((function(){window.open(link,"_blank")}),500)}function addLine(text,style,time){var t="";for(let i=0;i<text.length;i++)" "==text.charAt(i)&&" "==text.charAt(i+1)?(t+="&nbsp;&nbsp;",i++):t+=text.charAt(i);setTimeout((function(){var next=document.createElement("p");next.innerHTML=t,next.className=style,before.parentNode.insertBefore(next,before),window.scrollTo(0,document.body.offsetHeight)}),time)}
     function loopLines(name,style,time){name.forEach((function(item,index){addLine(item,style,index*time)}))}
     // loading screen code: 2000 = 2000 ms
-    setTimeout((function(){loopLines(Loading,"",80),textarea.focus()}),100),
+    setTimeout((function(){loopLines(Loading,"",40),textarea.focus()}),100),
     setTimeout((function(){terminal.innerHTML='<a id="before"></a>',before=document.getElementById("before")}),5700),
     setTimeout((function(){loopLines(banner,"",80),textarea.focus()}),6300),
     //loopLines(banner,"",2200),
