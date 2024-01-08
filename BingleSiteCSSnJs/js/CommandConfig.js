@@ -113,6 +113,8 @@ changelog = [
   "<span class='command'>             Added loading screen - 06/01/2024</span>",
   "<span class='command'>            Added Neofetch command - 06/01/2024</span>",
   "<span class='command'>              Leaked IIT handbook - 06/01/2024</span>",
+  "<span class='command'>           Changed leaks command name - 07/01/2024</span>",
+  "<span class='command'>           Changed leaks command index - 07/01/2024</span>",
   '     <img src="https://c.tenor.com/sxg04ACV3JMAAAAC/tenor.gif">',
   "<br>",
 ];

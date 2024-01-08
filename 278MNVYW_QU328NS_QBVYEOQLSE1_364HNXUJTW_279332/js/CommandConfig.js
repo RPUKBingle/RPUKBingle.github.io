@@ -1,6 +1,6 @@
-var mcn_db = "https://drive.google.com/drive/folders/1uwerqKQAeAOSTgRiPPK_9ba5f8BQ4q-T"
+var mcn_db = "https://drive.google.com/drive/folders/1uwerqKQAeAOSTgRiPPK_9ba5f8BQ4q-T";
 var acn_db = "https://drive.google.com/drive/folders/1aD64CzhUAcDhYhKiZltncgBaxawUFCL4";
-
+var lsps_handbook = "https://sites.google.com/view/ls-policeservice/home";
 help = [
   "<br>",
   '<span class="command">Login</span>            Login to the bingle internal Network',
@@ -14,8 +14,17 @@ members_portal = [
   '<span class="command">C38528ML_732</span>      ACN DB File',
   "<span class='command'>D23490ML_476</span>      Internal Bingle Memo's",
   "<span class='command'>E85624ML_678</span>      Protected Groups List",
+  "<span class='command'>F28561ML_295</span>      Activate LSPS handbook backdoor",
   "<br>",
 ];
+
+a32342ml_245 = [
+  // how to use Watware
+  "<h2> How to use Watware</h2>",
+];
+
+
+
 
 //Dir = [
 //  "<br>",
