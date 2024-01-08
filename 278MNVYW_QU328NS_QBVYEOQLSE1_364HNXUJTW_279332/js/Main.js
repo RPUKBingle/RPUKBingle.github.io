@@ -23,7 +23,8 @@ pw=!1;let pwd=!1;var commands=[];function enterKey(e){if(181==e.keyCode&&documen
     ;case"clear":setTimeout((function(){terminal.innerHTML='<a id="before"></a>',before=document.getElementById("before")}),1);break
     ;case"banner":loopLines(banner,"",80);break
     // -------------------un-used commands might use later on-----------------------------
-    //;case"twitter":addLine("Opening Twitter...","color2",0),newTab(twitter);break
+    ;case"c38528ml_732":addLine("Opening ACN Database File...","color2",0),newTab(acn_db);break
+    ;case"b16352ml_134":addLine("Opening MCN Database File...","color2",0),newTab(mcn_db);break
     //;case"linkedin":addLine("Opening LinkedIn...","color2",0),newTab(linkedin);break
     //;case"instagram":addLine("Opening Instagram...","color2",0),newTab(instagram);break
     //;case"github":addLine("Opening GitHub...","color2",0),newTab(github);break

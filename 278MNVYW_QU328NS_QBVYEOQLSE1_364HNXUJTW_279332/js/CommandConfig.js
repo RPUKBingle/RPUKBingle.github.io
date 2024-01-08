@@ -1,9 +1,5 @@
-var youtube = "https://www.youtube.com/@RPUK-Bingle/videos";
-var twitter = " ";
-var linkedin = " ";
-var instagram = " ";
-var github = " ";
-var email = ' ';
+var mcn_db = "https://drive.google.com/drive/folders/1uwerqKQAeAOSTgRiPPK_9ba5f8BQ4q-T"
+var acn_db = "https://drive.google.com/drive/folders/1aD64CzhUAcDhYhKiZltncgBaxawUFCL4";
 
 help = [
   "<br>",
@@ -13,7 +9,11 @@ help = [
 
 members_portal = [
   "<br>",
-  '<span class="command">cid database</span>      A backdoor into the CID database',
+  '<span class="command">A32342ML_245</span>      How to use WW',
+  '<span class="command">B16352ML_134</span>      MCN DB File',
+  '<span class="command">C38528ML_732</span>      ACN DB File',
+  "<span class='command'>D23490ML_476</span>      Internal Bingle Memo's",
+  "<span class='command'>E85624ML_678</span>      Protected Groups List",
   "<br>",
 ];
 
@@ -25,19 +25,22 @@ members_portal = [
 banner = [
   "<br>",
   '<span class="index">OOC: if you are not in bingle and have found this page i will be shocked </span>',
-  "██╗███╗   ██╗████████╗███████╗██████╗ ███╗   ██╗ █████╗ ██╗       ",
-  "██║████╗  ██║╚══██╔══╝██╔════╝██╔══██╗████╗  ██║██╔══██╗██║       ",
-  "██║██╔██╗ ██║   ██║   █████╗  ██████╔╝██╔██╗ ██║███████║██║       ",
-  "██║██║╚██╗██║   ██║   ██╔══╝  ██╔══██╗██║╚██╗██║██╔══██║██║       ",
-  "██║██║ ╚████║   ██║   ███████╗██║  ██║██║ ╚████║██║  ██║███████╗  ",
-  "╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝  ",
-  "██████╗ ██╗███╗   ██╗ ██████╗ ██╗     ███████╗  ███╗   ██╗███████╗████████╗██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗",
-  "██╔══██╗██║████╗  ██║██╔════╝ ██║     ██╔════╝  ████╗  ██║██╔════╝╚══██╔══╝██║    ██║██╔═══██╗██╔══██╗██║ ██╔╝",
-  "██████╔╝██║██╔██╗ ██║██║  ███╗██║     █████╗    ██╔██╗ ██║█████╗     ██║   ██║ █╗ ██║██║   ██║██████╔╝█████╔╝ ",
-  "██╔══██╗██║██║╚██╗██║██║   ██║██║     ██╔══╝    ██║╚██╗██║██╔══╝     ██║   ██║███╗██║██║   ██║██╔══██╗██╔═██╗ ",
-  "██████╔╝██║██║ ╚████║╚██████╔╝███████╗███████╗  ██║ ╚████║███████╗   ██║   ╚███╔███╔╝╚██████╔╝██║  ██║██║  ██╗",
-  "╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚══════╝  ╚═╝  ╚═══╝╚══════╝   ╚═╝    ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝",
-  "///--------------!!!MCN & NFPE!!!----------------///",
+  "<span class=\"color5\">██╗███╗   ██╗████████╗███████╗██████╗ ███╗   ██╗ █████╗ ██╗       </span>",
+  "<span class=\"color5\">██║████╗  ██║╚══██╔══╝██╔════╝██╔══██╗████╗  ██║██╔══██╗██║       </span>",
+  "<span class=\"color5\">██║██╔██╗ ██║   ██║   █████╗  ██████╔╝██╔██╗ ██║███████║██║       </span>",
+  "<span class=\"color5\">██║██║╚██╗██║   ██║   ██╔══╝  ██╔══██╗██║╚██╗██║██╔══██║██║       </span>",
+  "<span class=\"color5\">██║██║ ╚████║   ██║   ███████╗██║  ██║██║ ╚████║██║  ██║███████╗  </span>",
+  "<span class=\"color5\">╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝  </span>",
+  "<span class=\"color5\">██████╗ ██╗███╗   ██╗ ██████╗ ██╗     ███████╗  ███╗   ██╗███████╗████████╗██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗</span>",
+  "<span class=\"color5\">██╔══██╗██║████╗  ██║██╔════╝ ██║     ██╔════╝  ████╗  ██║██╔════╝╚══██╔══╝██║    ██║██╔═══██╗██╔══██╗██║ ██╔╝</span>",
+  "<span class=\"color5\">██████╔╝██║██╔██╗ ██║██║  ███╗██║     █████╗    ██╔██╗ ██║█████╗     ██║   ██║ █╗ ██║██║   ██║██████╔╝█████╔╝ </span>",
+  "<span class=\"color5\">██╔══██╗██║██║╚██╗██║██║   ██║██║     ██╔══╝    ██║╚██╗██║██╔══╝     ██║   ██║███╗██║██║   ██║██╔══██╗██╔═██╗ </span>",
+  "<span class=\"color5\">██████╔╝██║██║ ╚████║╚██████╔╝███████╗███████╗  ██║ ╚████║███████╗   ██║   ╚███╔███╔╝╚██████╔╝██║  ██║██║  ██╗</span>",
+  "<span class=\"color5\">╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚══════╝  ╚═╝  ╚═══╝╚══════╝   ╚═╝    ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝</span>",
+  "///---------------------------------------------!!!MCN & NFPE!!!-------------------------------------------///",
+  "<span class=\"color3\">///-Leaking Data from the Bingle internal Network will put not only your life at risk but those arroud you-///</span>",
+  "///-------------------------Try to minimise discussion about this terminal OOC also <3---------------------///",
+  "<br>",
   '<span class="color2">Welcome to the B.I.T (Bingle Interactive Terminal)</span>',
   "<span class=\"color2\">To check The directory please, type</span> <span class=\"command\">'dir'</span><span class=\"color2\">.</span>",
 ];
