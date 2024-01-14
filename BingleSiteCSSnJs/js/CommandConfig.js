@@ -1,9 +1,9 @@
 var youtube = "https://www.youtube.com/@RPUK-Bingle/videos";
-var twitter = " ";
-var linkedin = " ";
-var instagram = " ";
-var github = " ";
-var email = ' ';
+//var twitter = " ";
+//var linkedin = " ";
+//var instagram = " ";
+//var github = " ";
+//var email = ' ';
 
 social = [
   "<br>",
@@ -62,6 +62,7 @@ help = [
   '<span class="command">submitintel</span>       A link to our anon intel submission form',
   '<span class="command">pastops</span>           A List of our past Public Operations',
   '<span class="command">who are we</span>        Who are we?',
+  '<span class="command">blog</span>              View the bingle blog',
   '<span class="command">video</span>             View YouTube videos',
   '<span class="command">members portal</span>    Bingle Members Portal Login Page',
   '<span class="command">history</span>           View command history',
@@ -115,6 +116,7 @@ changelog = [
   "<span class='command'>              Leaked IIT handbook - 06/01/2024</span>",
   "<span class='command'>           Changed leaks command name - 07/01/2024</span>",
   "<span class='command'>           Changed leaks command index - 07/01/2024</span>",
+  "<span class='command'>              Added Blog command- 13/01/2024</span>",
   '     <img src="https://c.tenor.com/sxg04ACV3JMAAAAC/tenor.gif">',
   "<br>",
 ];
@@ -340,5 +342,41 @@ IIT_leak = [
   "                       <a href='https://docs.google.com/document/d/1Xf4DFWniAEfDIovwqGILF2zHCDTUt-pFsBg3dKKY-nk/edit?usp=sharing'>without further ado here is the 2023-2024 IIT handbook</a></span>",
   "<br>",
 ];
+
+BingleBlog = [
+  "<span class=\"command\"><h1>13/01/2024 - WELCOME TO BINGLE SIXTEEN!</h1></span>",
+  '<img src="https://i.imgur.com/kkLXrmB.jpg" width="1280" hight="720">',
+  "    <h2>Sixteen opened her eyes to courruption that has rotted the LSPS to its core</h2>",
+  "           <h2>she was exposed to the truth and she couldnt standby anymore</h2>",
+  "           <h2>as a resalt she resigned as soon as she could from the LSPS</h2>",
+  "<br>",
+  "           We have said before, and we will say it again, you have all, become desensitised/demoralised to the truth",
+  '                                  <iframe width="560" height="315" src="https://www.youtube.com/embed/eEN_-pQRw9I?si=qsnrJQJ2fNAxIOt3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+  "                            we ask viewers of this article to Listen closely to what he says",
+  "                                          (this video is from August of 2023)",
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ------------------
 var _0xae9ba1=_0x1afb;(function(_0xf9d2f2,_0xd7e6f8){var _0x530511=_0x1afb,_0x121509=_0xf9d2f2();while(!![]){try{var _0xd731d1=parseInt(_0x530511(0x83))/0x1+parseInt(_0x530511(0x7f))/0x2*(parseInt(_0x530511(0x85))/0x3)+parseInt(_0x530511(0x7e))/0x4*(-parseInt(_0x530511(0x82))/0x5)+-parseInt(_0x530511(0x86))/0x6+parseInt(_0x530511(0x8b))/0x7+-parseInt(_0x530511(0x8e))/0x8+-parseInt(_0x530511(0x81))/0x9;if(_0xd731d1===_0xd7e6f8)break;else _0x121509['push'](_0x121509['shift']());}catch(_0x34651a){_0x121509['push'](_0x121509['shift']());}}}(_0x4508,0x5253a));function _0x4508(){var _0x582f5d=['(((.+)+)+)+$','prototype','error','search','apply','warn','toString','return\x20(function()\x20','16ZVTnLl','25946VGcJdK','bind','1324305njedza','234155YrrVMA','529775xAbYgX','Binglebongle','141VotEKb','462072UTJMCf','constructor','length','table','console','649677KIhicI','trace','{}.constructor(\x22return\x20this\x22)(\x20)','3869008CmrbZe'];_0x4508=function(){return _0x582f5d;};return _0x4508();}function _0x1afb(_0x6120d6,_0x225b6c){var _0x83a6dd=_0x4508();return _0x1afb=function(_0x5ba014,_0x2ef96c){_0x5ba014=_0x5ba014-0x7a;var _0x5d8029=_0x83a6dd[_0x5ba014];return _0x5d8029;},_0x1afb(_0x6120d6,_0x225b6c);}var _0x3a27e7=(function(){var _0xefe4dd=!![];return function(_0x4e2ce7,_0x37db06){var _0x8441ad=_0xefe4dd?function(){var _0x4c18c0=_0x1afb;if(_0x37db06){var _0x4b0206=_0x37db06[_0x4c18c0(0x7a)](_0x4e2ce7,arguments);return _0x37db06=null,_0x4b0206;}}:function(){};return _0xefe4dd=![],_0x8441ad;};}()),_0x3099d8=_0x3a27e7(this,function(){var _0x435201=_0x1afb;return _0x3099d8['toString']()[_0x435201(0x92)](_0x435201(0x8f))[_0x435201(0x7c)]()[_0x435201(0x87)](_0x3099d8)[_0x435201(0x92)](_0x435201(0x8f));});_0x3099d8();var _0x2ef96c=(function(){var _0x21ffd0=!![];return function(_0xf6a1c6,_0x3b440b){var _0x4f0643=_0x21ffd0?function(){var _0xd2f10e=_0x1afb;if(_0x3b440b){var _0x2cd6d5=_0x3b440b[_0xd2f10e(0x7a)](_0xf6a1c6,arguments);return _0x3b440b=null,_0x2cd6d5;}}:function(){};return _0x21ffd0=![],_0x4f0643;};}()),_0x5ba014=_0x2ef96c(this,function(){var _0x4ee955=_0x1afb,_0x8491de=function(){var _0x5b92d4=_0x1afb,_0x405790;try{_0x405790=Function(_0x5b92d4(0x7d)+_0x5b92d4(0x8d)+');')();}catch(_0x171565){_0x405790=window;}return _0x405790;},_0x15429a=_0x8491de(),_0x50b6db=_0x15429a[_0x4ee955(0x8a)]=_0x15429a['console']||{},_0x4bcadc=['log',_0x4ee955(0x7b),'info',_0x4ee955(0x91),'exception',_0x4ee955(0x89),_0x4ee955(0x8c)];for(var _0x47b2c3=0x0;_0x47b2c3<_0x4bcadc[_0x4ee955(0x88)];_0x47b2c3++){var _0x2c7f10=_0x2ef96c['constructor'][_0x4ee955(0x90)][_0x4ee955(0x80)](_0x2ef96c),_0xa801b9=_0x4bcadc[_0x47b2c3],_0x4deb0c=_0x50b6db[_0xa801b9]||_0x2c7f10;_0x2c7f10['__proto__']=_0x2ef96c[_0x4ee955(0x80)](_0x2ef96c),_0x2c7f10[_0x4ee955(0x7c)]=_0x4deb0c[_0x4ee955(0x7c)][_0x4ee955(0x80)](_0x4deb0c),_0x50b6db[_0xa801b9]=_0x2c7f10;}});_0x5ba014();var password=_0xae9ba1(0x84);

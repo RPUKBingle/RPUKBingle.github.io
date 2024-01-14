@@ -33,6 +33,7 @@ pw=!1;let pwd=!1;var commands=[];function enterKey(e){if(181==e.keyCode&&documen
     ;case"submitintel":loopLines(submitintel,"",80);break
     ;case"informantinfo":loopLines(informantinfo,"",80);break
     ;case"neofetch":loopLines(neofetch,"",80);break
+    ;case"blog":loopLines(BingleBlog,"",80);break
     // -----------------------Leak Commands-----------------------------
     ;case"bingleleaks":loopLines(Public_Bingle_Leaks_index,"",80);break
     ;case"2024 iit handbook":loopLines(IIT_leak,"",80);break
