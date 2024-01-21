@@ -30,6 +30,7 @@ a32342ml_245 = [
   "You will also need to prove to command you can hack with watware concictantly",
   "                                with ZERO fails",
   "Under 30 seconds consitantly before being concidered to handle the device",
+  "            <span class=\"color4\">Use the program on your laptop to practice this hack</span>",
   "<h1><b>--------Watware hack in Progress--------</b></h2>",
   "<img src='https://i.imgur.com/Z17VkQX.png'></img>",
 ];
@@ -44,7 +45,6 @@ a32342ml_245 = [
 
 banner = [
   "<br>",
-  '<span class="index">OOC: if you are not in bingle and have found this page i will be shocked </span>',
   "<span class=\"color5\">██╗███╗   ██╗████████╗███████╗██████╗ ███╗   ██╗ █████╗ ██╗       </span>",
   "<span class=\"color5\">██║████╗  ██║╚══██╔══╝██╔════╝██╔══██╗████╗  ██║██╔══██╗██║       </span>",
   "<span class=\"color5\">██║██╔██╗ ██║   ██║   █████╗  ██████╔╝██╔██╗ ██║███████║██║       </span>",
