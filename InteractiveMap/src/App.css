@@ -1,0 +1,36 @@
+/* App.css */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #143d6b;
+  display: flex; /* Add this to make the content center vertically and horizontally */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+}
+
+/* Add scrollbar to the map container */
+.map-container {
+  position: relative;
+  width: 100%;
+  background-color: #143d6b;
+  height: 100%;
+  overflow: hidden; /* Add overflow property for scrollbar */
+}
+
+.map-container img {
+  width: 100%;
+  height: 100%;
+  background-color: #143d6b;
+  object-fit: cover;
+}
+
+
+/* App.css */
+.mouse-coordinates {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background-color: white;
+  border: 1px solid black;
+}
