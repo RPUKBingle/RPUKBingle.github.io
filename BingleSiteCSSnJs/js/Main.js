@@ -39,7 +39,7 @@ pw=!1;let pwd=!1;var commands=[];function enterKey(e){if(181==e.keyCode&&documen
     ;case"2024 iit handbook":loopLines(IIT_leak,"",80);break
     ;case"pastleaks":loopLines(pastleaks,"color2 margin",80);break
     // -------------------un-used commands might use later on-----------------------------
-    //;case"twitter":addLine("Opening Twitter...","color2",0),newTab(twitter);break
+    ;case"interactivemap":addLine("Opening Bingle Map...","color2",0),newTab(interactivemap);break
     //;case"linkedin":addLine("Opening LinkedIn...","color2",0),newTab(linkedin);break
     //;case"instagram":addLine("Opening Instagram...","color2",0),newTab(instagram);break
     //;case"github":addLine("Opening GitHub...","color2",0),newTab(github);break
