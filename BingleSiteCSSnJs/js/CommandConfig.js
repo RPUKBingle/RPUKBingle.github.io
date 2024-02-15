@@ -1,5 +1,5 @@
 var youtube = "https://www.youtube.com/@RPUK-Bingle/videos";
-var interactivemap = "https://www.youtube.com/@RPUK-Bingle/videos";
+var interactivemap = "https://arescs.github.io/gta-v-container-map-rpuk/";
 //var linkedin = " ";
 //var instagram = " ";
 //var github = " ";
