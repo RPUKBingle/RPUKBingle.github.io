@@ -1,8 +1,6 @@
 # Bingle Has Disbanded as of the 19th of April 2024
 
-"Don't be sad because its over be happy because it happened"
-
-https://www.youtube.com/watch?v=to1xT93IlUI&t=7s
+["Don't be sad because its over be happy because it happened"](https://www.youtube.com/watch?v=to1xT93IlUI&t=7s)
 
 Everything has to come to an end and unfortunately Bingle's time has come,
 this is a decision that wasn't taken lightly but it was needed,
