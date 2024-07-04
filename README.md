@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Bingle Has Disbanded as of the 19th of April 2024
 
 "Don't be sad because its over be happy because it happened"
