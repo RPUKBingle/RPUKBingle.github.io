@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bingle Has Disbanded as of the 19th of April 2024
 
 "Don't be sad because its over be happy because it happened"
@@ -21,3 +22,14 @@ Bingle: 2023-2024
 ![Screenshot_2024-01-10_223049](https://github.com/RPUKBingle/RPUKBingle.github.io/assets/35628281/2573aae4-894b-4c4f-90aa-7999ebcc382d)
 ![Screenshot_2023-12-21_233240](https://github.com/RPUKBingle/RPUKBingle.github.io/assets/35628281/f603702b-fac5-4c1c-9d9a-18a452e1d52c)
 ![im123123123age](https://github.com/RPUKBingle/RPUKBingle.github.io/assets/35628281/88dfe812-273c-4250-b65a-87af21c2ac8a)
+=======
+This is website is for entertainment perposes only 
+
+if you datamine this website and use info from it IC we will know and we will contact staff 
+
+the way github sites work means we need to keep the source public, 
+we would prefer it wasnt public but there is nothing we can do about it
+
+we have obfuscated certain info from this website in a hope to reduce the possibility's of 
+the site getting datamined, data mining just ruin's the fun of rp for everyone DONT DO IT
+>>>>>>> parent of f756d61 (.)
