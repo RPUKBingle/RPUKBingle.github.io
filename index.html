@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <!-- SEO Meta Tags -->
+        <meta name="description" content="This site is a work of fiction and entertainment purposes only.">
+        <meta name="author" content="Bingle">
+        <!-- Open Graph Tags (for social media sharing like Facebook) -->
+        <meta property="og:title" content="Bingle Bongle">
+        <meta property="og:description" content="This site is a work of fiction and entertainment purposes only.">
+        <meta property="og:image" content="https://femboy.beauty/Q0T12.png">
+        <meta property="og:type" content="website">
+        <!-- Twitter Card (for Twitter sharing) -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Bingle Bongle">
+        <meta name="twitter:description" content="This site is a work of fiction and entertainment purposes only.">
+        <meta name="twitter:image" content="https://femboy.beauty/Q0T12.png">
+        <!-- Robots Meta Tag (controls search engine crawling) -->
+        <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./startuplogo.png">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles.css">
+    <title>Bingle Bongle</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; 
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <video id="myVideo" preload="auto" loop playsinline>
+        <source src="./binglevideo1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="popupbackground" id="popupbackground">
+        <div class="popup password-input">
+            <img src="https://femboy.beauty/Q0T12.png" width="100" height="100" alt="BingleLogo">
+            <h2 style="justify-content: center; align-items: center;">This Site is a work of fiction</h2>
+            <p style="margin-left: 20px; margin-right: 20px; justify-content: center; align-items: center;">This site is not related to any real-world groups or individuals.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Content on this site is used for Roleplay.co.uk<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and is for <span class="errorcode">entertainment purposes only</span></p>
+            <img style="position: absolute; top: 20px; left: 730px;" src="https://femboy.beauty/K2ADz.png" width="100" height="100" alt="NoPixelLogo">
+            <button class="password-input" id="closePopup">Close</button>
+        </div>
+    </div>
+
+    <script>
+        const video = document.getElementById('myVideo');
+        const closePopupButton = document.getElementById('closePopup');
+        const popupbackground = document.getElementById('popupbackground');
+        const popup = document.querySelector('.popup');
+    
+        window.addEventListener('load', () => {
+            popupbackground.classList.add('show');
+            popup.classList.add('show');
+        });
+
+        closePopupButton.addEventListener('click', () => {
+            popup.classList.add('hide');
+            popupbackground.classList.add('hide');
+    
+            // Unmute the video and play it
+            video.muted = false;  // Unmute the video
+            video.play().catch(function() {
+                console.log("Autoplay with sound was blocked by the browser.");
+            });
+
+            // Use setTimeout to match the CSS transition duration
+            setTimeout(() => {
+                popupbackground.classList.remove('show', 'hide');
+                popup.classList.remove('show', 'hide');
+            }, 500); // Match this duration with the CSS transition duration
+        });
+
+        // Add an error handler in case the video fails to load
+        video.addEventListener('error', function() {
+            alert("Error loading video. Please try again later.");
+        });
+    </script>
+</body>
+</html>
